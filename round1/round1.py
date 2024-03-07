@@ -69,7 +69,7 @@ def init_valueable_pathes(gamemap: Map):
     for i in range(len(all_pathes)):
         random.shuffle(all_pathes[i])
 
-    print("all_pathes len", sum([len(x) for x in all_pathes]), cnt_turns)
+    # print("all_pathes len", sum([len(x) for x in all_pathes]), cnt_turns)
 
 
 defining_cells = [[] for _ in range(20)]
@@ -83,7 +83,6 @@ def get_defining_cells_fixed_len(lenpath):
                 break
             if (path[num], num) not in candidates:
                 candidates.append((path[num], num))
-    print(lenpath, len(all_pathes[lenpath]), candidates)
     for comb_len in [4, 3, 5, 2, 1]:
         best_comb = (0, ())
         for comb in itertools.combinations(candidates, comb_len):
@@ -111,11 +110,7 @@ def init_defining_cells():
     defining_cells = [[] for _ in range(20)]
     for lenpath in range(1, len(all_pathes)):
         defining_cells[lenpath] = get_defining_cells_fixed_len(lenpath)
-        print(defining_cells[lenpath])
-
-
-moves_first_50_turns = []
-
+        # print(defining_cells[lenpath])
 
 class Pt:
     def __init__(self, x, y):
@@ -166,8 +161,6 @@ def brute(used, general_army, turn_num, cells_captured, prev_pathlen, all_moves)
     if best_first50_moves[0] <= cells_captured:
         best_first50_moves = max(best_first50_moves, (
             cells_captured, calc_cells_nearby(used, all_moves), all_moves.copy()))
-        # best_first50_moves = max(best_first50_moves, (
-        #     cells_captured, 0, all_moves.copy()))
     if not check_time():
         return
     left_limit = prev_pathlen // 2 - 1
@@ -182,8 +175,6 @@ def brute(used, general_army, turn_num, cells_captured, prev_pathlen, all_moves)
 
         best_pathes_now = [[] for _ in range(len(defining_cells[pathlen]))]
 
-        # random.shuffle(all_pathes[pathlen])
-
         for path in all_pathes[pathlen]:
             army_need = 1
             for xy in path:
@@ -195,10 +186,6 @@ def brute(used, general_army, turn_num, cells_captured, prev_pathlen, all_moves)
                 if path[x[1]] == x[0]:
                     direct = i
                     break
-            # if direct == -1:
-            #     print(pathlen, 'aboba')
-            #     exit(1)
-            # direct = 1 if used[path[1][1]][path[1][0]] else 0
             if not best_pathes_now[direct] or best_pathes_now[direct][0][0] < army_need:
                 best_pathes_now[direct] = [(army_need, path)]
             elif best_pathes_now[direct][0][0] == army_need:
@@ -232,7 +219,7 @@ def brute(used, general_army, turn_num, cells_captured, prev_pathlen, all_moves)
 
 
 def get_first_50_moves(gamemap: Map):
-    global moves_first_50_turns, best_first50_moves, brute_start_time, cnt_time_queries, time_ok
+    global best_first50_moves, brute_start_time, cnt_time_queries, time_ok
     best_first50_moves = (0, 0, [])
     init_valueable_pathes(gamemap)
     init_defining_cells()
@@ -246,38 +233,9 @@ def get_first_50_moves(gamemap: Map):
     time_ok = True
     brute(used, 1, 1, 1, 18, [])
 
-    with open('first50_res.txt', 'a') as f:
-        f.write(str(best_first50_moves) + '\n')
+    # with open('first50_res.txt', 'a') as f:
+    #     f.write(str(best_first50_moves) + '\n')
     print(best_first50_moves)
 
-    moves_first_50_turns = [(Pt(pt1[0], pt1[1]), Pt(pt2[0], pt2[1]), army) for pt1, pt2, army in
+    return [(Pt(pt1[0], pt1[1]), Pt(pt2[0], pt2[1]), army) for pt1, pt2, army in
                             best_first50_moves[2]]
-
-
-no_move_until = 0
-
-
-def make_move(bot, gamemap: Map):
-    global moves_first_50_turns, no_move_until
-    if gamemap.turn == 1:
-        return
-    if gamemap.turn == 2:
-        moves_first_50_turns = []
-        no_move_until = 0
-        get_first_50_moves(gamemap)
-        # bot.surrender()
-        return
-    if gamemap.turn <= 50:
-        if no_move_until > gamemap.turn:
-            return
-        no_move_until = gamemap.turn
-        if len(moves_first_50_turns) > 0 and moves_first_50_turns[0][2] <= gamemap.turn:
-            bot.place_move(moves_first_50_turns[0][0], moves_first_50_turns[0][1])
-            moves_first_50_turns.pop(0)
-            no_move_until += 1
-            while len(moves_first_50_turns) > 0 and moves_first_50_turns[0][2] == 0:
-                bot.place_move(moves_first_50_turns[0][0], moves_first_50_turns[0][1])
-                moves_first_50_turns.pop(0)
-                no_move_until += 1
-        return
-    bot.surrender()
