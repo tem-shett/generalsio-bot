@@ -10,4 +10,4 @@ for i in arr:
     cnt[i] += 1
 for j in range(25, -1, -1):
     if cnt[j] != 0:
-        print(f'{j}: {cnt[j] / len(arr)}')
+        print(f'{j}: {round(cnt[j] / len(arr) * 100, 2)}%')

@@ -1,5 +1,7 @@
 from base.client.map import Map
 from round1.round1 import get_first_50_moves
+from gather_army import gather_army
+import random
 
 no_move_until = 0
 
@@ -27,4 +29,14 @@ def make_move(bot, gamemap: Map):
                 moves_first_50_turns.pop(0)
                 no_move_until += 1
         return
-    bot.surrender()
+    if gamemap.turn == 50:
+
+        tl = random.choice(list(gamemap.tiles[gamemap.player_index]))
+        print(tl.x, tl.y)
+
+        moves = gather_army(gamemap, (tl.x, tl.y), 50)
+        for el in moves:
+            bot.place_move(el[0], el[1])
+
+    if gamemap.turn > 200:
+        bot.surrender()

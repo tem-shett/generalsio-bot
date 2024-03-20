@@ -2,6 +2,7 @@ import random
 
 from base.client.constants import *
 from base.client.map import Map
+from classes import Pt
 from datetime import datetime
 import itertools
 
@@ -111,12 +112,6 @@ def init_defining_cells():
     for lenpath in range(1, len(all_pathes)):
         defining_cells[lenpath] = get_defining_cells_fixed_len(lenpath)
         # print(defining_cells[lenpath])
-
-class Pt:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-
 
 brute_start_time = datetime.now()
 best_first50_moves = (0, 0, [])
