@@ -17,11 +17,14 @@ class Game:
         self.cols = 0
         self.moves_first_50_turns = []
         self.moves = []
+        self.turn = 0
         self.enemy_general = (-1, -1)
+        self.not_enemy_general = []
         self.my_general = (-1, -1)
         self.enemy_territory = []
 
     def update_enemy(self, gamemap: Map):
+        self.turn = gamemap.turn
         if not self.enemy_territory:
             self.enemy_territory = [[0 for x in range(gamemap.cols)] for y in range(gamemap.rows)]
             self.rows = gamemap.rows
@@ -30,6 +33,10 @@ class Game:
             self.my_general = (my_general.x, my_general.y)
         for y in range(gamemap.rows):
             for x in range(gamemap.cols):
+                if (not gamemap.grid[y][x].isGeneral or (x, y) == self.my_general) and (
+                x, y) not in self.not_enemy_general and gamemap.grid[y][x].tile not in [
+                    TILE_OBSTACLE, TILE_FOG]:
+                    self.not_enemy_general.append((x, y))
                 if gamemap.grid[y][x].tile == TILE_FOG:
                     continue
                 if gamemap.grid[y][x].isGeneral and (x, y) != self.my_general:
@@ -43,6 +50,8 @@ class Game:
         cnt = 0
         for y in range(len(self.enemy_territory)):
             for x in range(len(self.enemy_territory[0])):
+                if abs(y - self.my_general[1]) + abs(x - self.my_general[0]) <= 6:
+                    continue
                 if self.enemy_territory[y][x]:
                     smx += x
                     smy += y
@@ -53,7 +62,6 @@ class Game:
 
     def get_enemy_known_territory(self):
         return sum([sum(self.enemy_territory[i]) for i in range(self.rows)])
-
 
     def investigate_territory(self, gamemap: Map):
         target_cell = self.get_enemy_central_cell()
@@ -66,7 +74,9 @@ class Game:
         my_cells = my_cells[:min(len(my_cells), max(7, len(my_cells) // 5))]
         best_for_gather = ((-1, []), (-1, -1))
         for cell in my_cells:
-            gather_cur = gather_army(gamemap, cell, 20, 20)
+            enemy_known_territory = self.get_enemy_known_territory()
+            army_limit = 10 if enemy_known_territory == 0 else 20 if enemy_known_territory <= 5 else 40
+            gather_cur = gather_army(gamemap, cell, 20, army_limit)
             if gather_cur[0] > best_for_gather[0][0]:
                 best_for_gather = (gather_cur, cell)
 
@@ -75,26 +85,26 @@ class Game:
         best_cells = []
         for y in range(self.rows):
             for x in range(self.cols):
-                if is_simple_cell(gamemap, x, y):
+                if is_simple_cell(gamemap, x, y) and (x, y) not in self.not_enemy_general:
                     best_cells.append((x, y))
         best_cells.sort(
-            key=lambda xy: dot_product((target_cell[0] - gather_cell[0], target_cell[1] - gather_cell[1]),
-                                       (xy[0] - gather_cell[0], xy[1] - gather_cell[1])),
+            key=lambda xy: dot_product(
+                (target_cell[0] - self.my_general[0], target_cell[1] - self.my_general[1]),
+                (xy[0] - self.my_general[0], xy[1] - self.my_general[1])),
             reverse=True)
-        best_cells = best_cells[:min(len(best_cells), 7)]
+        best_cells = best_cells[:min(len(best_cells), 5)]
 
         final_cell = random.choice(best_cells)
 
         return best_for_gather[0][1] + bfs_simple_cells(gamemap, gather_cell, final_cell)
 
-
     def get_next_moves(self, gamemap: Map):
 
         enemy_known_territory = self.get_enemy_known_territory()
         print(enemy_known_territory, self.enemy_general)
-        if enemy_known_territory <= 1:
+        if enemy_known_territory <= 1 or self.turn == 50:
             turns_limit = 50 - gamemap.turn % 50
-            moves = expand(gamemap, self.get_enemy_central_cell(), turns_limit)
+            moves = expand(gamemap, self.get_enemy_central_cell(), min(turns_limit, 20))
             if moves:
                 return moves
         if enemy_known_territory <= 1:
@@ -108,30 +118,32 @@ class Game:
             for x in range(self.cols):
                 dist = abs(x - self.my_general[0]) + abs(y - self.my_general[1])
                 mn_dist_to_general = min(mn_dist_to_general, dist)
-                if self.enemy_territory[y][x] and dist <= 10:
+                if self.enemy_territory[y][x] and dist <= 7:
                     mx_army_dist10 = max(mx_army_dist10, gamemap.grid[y][x].army)
-                if self.enemy_territory[y][x] and dist <= 6:
+                if self.enemy_territory[y][x] and dist <= 5:
                     danger_cells.append((x, y))
-        danger_cells.sort(key=lambda xy: abs(xy[0] - self.my_general[0]) + abs(xy[1] - self.my_general[1]))
-
-        if mn_dist_to_general < 8 and gamemap.grid[self.my_general[1]][self.my_general[0]].army < mx_army_dist10 + 5:
-            return gather_army(gamemap, self.my_general, 20, mx_army_dist10 + 3)[1]
+        danger_cells.sort(
+            key=lambda xy: abs(xy[0] - self.my_general[0]) + abs(xy[1] - self.my_general[1]))
 
         if danger_cells:
-            return gather_army(gamemap, danger_cells[0], 10, gamemap.grid[danger_cells[0][1]][danger_cells[0][0]].army + 1, True)[1]
+            return gather_army(gamemap, danger_cells[0], 10,
+                               gamemap.grid[danger_cells[0][1]][danger_cells[0][0]].army + 1)[1]
+
+        if mn_dist_to_general < 6 and gamemap.grid[self.my_general[1]][
+            self.my_general[0]].army < mx_army_dist10 + 5:
+            return gather_army(gamemap, self.my_general, 20, mx_army_dist10 + 3)[1]
 
         if self.enemy_general != (-1, -1):
             if random.randint(1, 3) == 1:
                 return expand(gamemap, self.enemy_general, 20)
             else:
-                return gather_army(gamemap, self.enemy_general, 70, 10 ** 9)[1]
+                return gather_army(gamemap, self.enemy_general, 40, 10 ** 9)[1]
 
         if random.randint(1, 2) == 1:
             moves = expand(gamemap, self.enemy_general, 20)
             if moves:
                 return moves
         return self.investigate_territory(gamemap)
-
 
 
 def bfs_simple_cells(gamemap: Map, start_cell, final_cell):
@@ -173,7 +185,6 @@ def dot_product(xy1, xy2):
     return xy1[0] * xy2[0] + xy1[1] * xy2[1]
 
 
-
 game = Game()
 
 
@@ -200,7 +211,6 @@ def make_move(bot, gamemap: Map):
                 no_move_until += 1
         return
 
-
     while game.moves:
         x1, y1 = game.moves[0][0].x, game.moves[0][0].y
         if not is_my_cell(gamemap, x1, y1) or gamemap.grid[y1][x1].army <= 1:
@@ -216,14 +226,14 @@ def make_move(bot, gamemap: Map):
 
     # if gamemap.turn == 50:
 
-        # tl = random.choice(list(gamemap.tiles[gamemap.player_index]))
-        # print(tl.x, tl.y)
+    # tl = random.choice(list(gamemap.tiles[gamemap.player_index]))
+    # print(tl.x, tl.y)
 
-        # moves = gather_army(gamemap, (tl.x, tl.y), 50)
-        # moves = expand(gamemap, game.get_enemy_central_cell(), 50)
-        # print(moves)
-        # for el in moves:
-        #     bot.place_move(el[0], el[1])
+    # moves = gather_army(gamemap, (tl.x, tl.y), 50)
+    # moves = expand(gamemap, game.get_enemy_central_cell(), 50)
+    # print(moves)
+    # for el in moves:
+    #     bot.place_move(el[0], el[1])
     #
     # if gamemap.turn > 100:
     #     tl = random.choice(list(gamemap.tiles[gamemap.player_index]))

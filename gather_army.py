@@ -2,6 +2,7 @@ from base.client.map import Map
 from base.client.constants import *
 from copy import deepcopy
 from classes import Pt
+from heapq import *
 
 
 def is_valid(gamemap: Map, x, y):
@@ -16,32 +17,26 @@ def is_valid(gamemap: Map, x, y):
 def build_graph(gamemap: Map, gather_xy, general_ban):
     general = gamemap.generals[gamemap.player_index]
     dist = [[1000 for x in range(gamemap.cols)] for y in range(gamemap.rows)]
-    used = [[0 for x in range(gamemap.cols)] for y in range(gamemap.rows)]
     pred = [[(-1, -1) for x in range(gamemap.cols)] for y in range(gamemap.rows)]
     dist[gather_xy[1]][gather_xy[0]] = 0
-    vs = [[] for _ in range(4)]
-    vs[0].append(gather_xy)
-    cur_dist = 0
-    while sum([len(x) for x in vs]) > 0:
-        if not vs[0]:
-            cur_dist += 1
-            for i in range(len(vs) - 1):
-                vs[i], vs[i + 1] = vs[i + 1], vs[i]
+    heap = [(0, gather_xy)]
+    while heap:
+        d, xy = heappop(heap)
+        x, y = xy
+        if dist[y][x] != d:
             continue
-        x, y = vs[0].pop()
-        if used[y][x]:
-            continue
-        used[y][x] = 1
         for direct in DIRECTIONS:
             x2 = x + direct[0]
             y2 = y + direct[1]
             if x2 == general.x and y2 == general.y and general_ban:
                 continue
             if is_valid(gamemap, x2, y2):
-                cost = 1 if gamemap.grid[y2][x2].tile == gamemap.player_index else 3
-                if cur_dist + cost < dist[y2][x2]:
-                    dist[y2][x2] = cur_dist + cost
-                    vs[cost].append((x2, y2))
+                cost = 3
+                if gamemap.grid[y2][x2].tile == gamemap.player_index and gamemap.grid[y2][x2].army > 0:
+                    cost = 1 / gamemap.grid[y2][x2].army
+                if d + cost < dist[y2][x2]:
+                    dist[y2][x2] = d + cost
+                    heappush(heap, (dist[y2][x2], (x2, y2)))
                     pred[y2][x2] = (x, y)
     g = [[] for _ in range(gamemap.cols * gamemap.rows)]
     delta_army = [0 for _ in range(gamemap.cols * gamemap.rows)]
