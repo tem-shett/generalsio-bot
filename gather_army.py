@@ -13,7 +13,8 @@ def is_valid(gamemap: Map, x, y):
         x].isCity and not gamemap.grid[y][x].isGeneral
 
 
-def build_graph(gamemap: Map, gather_xy):
+def build_graph(gamemap: Map, gather_xy, general_ban):
+    general = gamemap.generals[gamemap.player_index]
     dist = [[1000 for x in range(gamemap.cols)] for y in range(gamemap.rows)]
     used = [[0 for x in range(gamemap.cols)] for y in range(gamemap.rows)]
     pred = [[(-1, -1) for x in range(gamemap.cols)] for y in range(gamemap.rows)]
@@ -34,6 +35,8 @@ def build_graph(gamemap: Map, gather_xy):
         for direct in DIRECTIONS:
             x2 = x + direct[0]
             y2 = y + direct[1]
+            if x2 == general.x and y2 == general.y and general_ban:
+                continue
             if is_valid(gamemap, x2, y2):
                 cost = 1 if gamemap.grid[y2][x2].tile == gamemap.player_index else 3
                 if cur_dist + cost < dist[y2][x2]:
@@ -57,13 +60,12 @@ def build_graph(gamemap: Map, gather_xy):
     return delta_army, g
 
 
-def gather_army(gamemap: Map, gather_xy, turns_limit):
-    delta_army, g = build_graph(gamemap, gather_xy)
-    print(delta_army)
-    print(max(delta_army))
-    print(g)
-    dp = [[delta_army[v] for turns_num in range(turns_limit + 1)] for v in range(gamemap.rows * gamemap.cols)]
-    prev = [[[] for turns_num in range(turns_limit + 1)] for _ in range(gamemap.rows * gamemap.cols)]
+def gather_army(gamemap: Map, gather_xy, turns_limit, army_limit, general_ban=False):
+    delta_army, g = build_graph(gamemap, gather_xy, general_ban)
+    dp = [[delta_army[v] for turns_num in range(turns_limit + 1)] for v in
+          range(gamemap.rows * gamemap.cols)]
+    prev = [[[] for turns_num in range(turns_limit + 1)] for _ in
+            range(gamemap.rows * gamemap.cols)]
 
     def dfs(v):
         for u in g[v]:
@@ -81,7 +83,6 @@ def gather_army(gamemap: Map, gather_xy, turns_limit):
             dp[v], ndp = ndp, dp[v]
             prev[v], nprev = nprev, prev[v]
 
-
     start_v = gather_xy[0] * gamemap.rows + gather_xy[1]
     dfs(start_v)
 
@@ -95,15 +96,16 @@ def gather_army(gamemap: Map, gather_xy, turns_limit):
                 get_moves(u, left_turns)
                 all_moves.append((u, v))
 
+    while turns_limit > 0 and (
+            dp[start_v][turns_limit] == dp[start_v][turns_limit - 1] or dp[start_v][
+        turns_limit - 1] >= army_limit):
+        turns_limit -= 1
 
     get_moves(start_v, turns_limit)
 
-
     all_moves_pt = []
     for u, v in all_moves:
-        print(u // gamemap.rows, u % gamemap.rows, v // gamemap.rows, v % gamemap.rows)
         all_moves_pt.append((Pt(u // gamemap.rows, u % gamemap.rows),
                              Pt(v // gamemap.rows, v % gamemap.rows)))
 
-    return all_moves_pt
-
+    return dp[start_v][turns_limit], all_moves_pt
