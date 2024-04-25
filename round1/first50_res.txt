@@ -109,3 +109,2265 @@
 (24, 44, [((2, 21), (2, 20), 26), ((2, 20), (3, 20), 0), ((3, 20), (4, 20), 0), ((4, 20), (4, 21), 0), ((4, 21), (5, 21), 0), ((5, 21), (6, 21), 0), ((6, 21), (7, 21), 0), ((7, 21), (8, 21), 0), ((8, 21), (8, 20), 0), ((8, 20), (8, 19), 0), ((8, 19), (8, 18), 0), ((8, 18), (8, 17), 0), ((8, 17), (8, 16), 0), ((2, 21), (2, 20), 39), ((2, 20), (2, 19), 0), ((2, 19), (3, 19), 0), ((3, 19), (4, 19), 0), ((4, 19), (5, 19), 0), ((5, 19), (5, 18), 0), ((5, 18), (5, 17), 0), ((2, 21), (1, 21), 46), ((1, 21), (1, 20), 0), ((1, 20), (1, 19), 0), ((1, 19), (0, 19), 0)])
 (25, 50, [((1, 6), (2, 6), 22), ((2, 6), (3, 6), 0), ((3, 6), (4, 6), 0), ((4, 6), (5, 6), 0), ((5, 6), (6, 6), 0), ((6, 6), (6, 7), 0), ((6, 7), (6, 8), 0), ((6, 8), (6, 9), 0), ((6, 9), (6, 10), 0), ((6, 10), (5, 10), 0), ((5, 10), (4, 10), 0), ((1, 6), (2, 6), 34), ((2, 6), (3, 6), 0), ((3, 6), (3, 5), 0), ((3, 5), (3, 4), 0), ((3, 4), (3, 3), 0), ((3, 3), (3, 2), 0), ((3, 2), (2, 2), 0), ((2, 2), (1, 2), 0), ((1, 6), (1, 7), 42), ((1, 7), (1, 8), 0), ((1, 8), (1, 9), 0), ((1, 9), (1, 10), 0), ((1, 6), (1, 7), 46), ((1, 7), (0, 7), 0), ((0, 7), (0, 8), 0), ((1, 6), (1, 5), 49)])
 (25, 49, [((13, 14), (13, 13), 24), ((13, 13), (14, 13), 0), ((14, 13), (15, 13), 0), ((15, 13), (15, 12), 0), ((15, 12), (15, 11), 0), ((15, 11), (15, 10), 0), ((15, 10), (15, 9), 0), ((15, 9), (15, 8), 0), ((15, 8), (15, 7), 0), ((15, 7), (16, 7), 0), ((16, 7), (17, 7), 0), ((17, 7), (18, 7), 0), ((13, 14), (13, 13), 36), ((13, 13), (12, 13), 0), ((12, 13), (11, 13), 0), ((11, 13), (10, 13), 0), ((10, 13), (10, 14), 0), ((10, 14), (10, 15), 0), ((10, 15), (10, 16), 0), ((13, 14), (12, 14), 43), ((12, 14), (12, 13), 0), ((12, 13), (12, 12), 0), ((12, 12), (12, 11), 0), ((13, 14), (13, 15), 47), ((13, 15), (13, 16), 0), ((13, 14), (14, 14), 49)])
+
+
+/usr/bin/pypy3.8 /home/tem_shett/HSE/kursach/generalsio-bot/run_bot1.py
+INFO:root:send: ['set_username', 'sdlfkjsdlfk', '[Bot] dsgfhj']
+INFO:root:Joining games
+INFO:root:send: ['join_private', '40mt', 'sdlfkjsdlfk']
+INFO:root:error_set_username: ['This username is already taken.']
+INFO:root:Queue 0/2 {1: ['tem_shett_'], 2: [None]}
+INFO:root:Message: [Bot] dsgfhj joined the custom lobby.
+INFO:root:Queue 0/2 {1: ['tem_shett_'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 0/1 {13: ['tem_shett_'], 2: ['[Bot] dsgfhj']}
+INFO:root:Message: tem_shett_ joined the spectators.
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:Queue 1/1 {13: ['tem_shett_'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/2 {13: ['tem_shett_'], 2: ['[Bot] dsgfhj'], 1: [None]}
+INFO:root:Message: hotdog69 joined the custom lobby.
+INFO:root:Queue 1/2 {13: ['tem_shett_'], 2: ['[Bot] dsgfhj'], 1: ['hotdog69']}
+INFO:root:notify: ['hotdog69 joined the custom game', 'There are now 3 players in the lobby.']
+INFO:root:Queue 0/1 {13: ['tem_shett_', 'hotdog69'], 2: ['[Bot] dsgfhj']}
+INFO:root:Message: hotdog69 joined the spectators.
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:Queue 1/1 {13: ['tem_shett_', 'hotdog69'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/2 {13: ['tem_shett_', 'hotdog69'], 2: ['[Bot] dsgfhj'], 1: [None]}
+INFO:root:Message: [Bot] aaaadsfakljn joined the custom lobby.
+INFO:root:Queue 1/2 {13: ['tem_shett_', 'hotdog69'], 2: ['[Bot] dsgfhj'], 1: ['[Bot] aaaadsfakljn']}
+INFO:root:notify: ['[Bot] aaaadsfakljn joined the custom game', 'There are now 4 players in the lobby.']
+INFO:root:pre_game_start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:Joined Game: http://bot.generals.io/replays/LfeKiRt50 - ['[Bot] dsgfhj', '[Bot] aaaadsfakljn']
+INFO:root:Message:  Chat is being recorded.
+(25, 50, [((6, 6), (6, 7), 20), ((6, 7), (6, 8), 0), ((6, 8), (6, 9), 0), ((6, 9), (6, 10), 0), ((6, 10), (6, 11), 0), ((6, 11), (6, 12), 0), ((6, 12), (7, 12), 0), ((7, 12), (8, 12), 0), ((8, 12), (9, 12), 0), ((9, 12), (10, 12), 0), ((6, 6), (6, 7), 30), ((6, 7), (6, 8), 0), ((6, 8), (6, 9), 0), ((6, 9), (5, 9), 0), ((5, 9), (4, 9), 0), ((4, 9), (3, 9), 0), ((3, 9), (3, 8), 0), ((3, 8), (3, 7), 0), ((6, 6), (6, 7), 38), ((6, 7), (6, 8), 0), ((6, 8), (7, 8), 0), ((7, 8), (8, 8), 0), ((8, 8), (8, 9), 0), ((8, 9), (8, 10), 0), ((6, 6), (6, 7), 44), ((6, 7), (5, 7), 0), ((5, 7), (4, 7), 0), ((4, 7), (4, 6), 0), ((6, 6), (7, 6), 48), ((7, 6), (7, 5), 0)])
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['attack', 126, 146, False, 1]
+INFO:root:send: ['attack', 146, 166, False, 2]
+INFO:root:send: ['attack', 166, 186, False, 3]
+INFO:root:send: ['attack', 186, 206, False, 4]
+INFO:root:send: ['attack', 206, 226, False, 5]
+INFO:root:send: ['attack', 226, 246, False, 6]
+INFO:root:send: ['attack', 246, 247, False, 7]
+INFO:root:send: ['attack', 247, 248, False, 8]
+INFO:root:send: ['attack', 248, 249, False, 9]
+INFO:root:send: ['attack', 249, 250, False, 10]
+INFO:root:send: ['attack', 126, 146, False, 11]
+INFO:root:send: ['attack', 146, 166, False, 12]
+INFO:root:send: ['attack', 166, 186, False, 13]
+INFO:root:send: ['attack', 186, 185, False, 14]
+INFO:root:send: ['attack', 185, 184, False, 15]
+INFO:root:send: ['attack', 184, 183, False, 16]
+INFO:root:send: ['attack', 183, 163, False, 17]
+INFO:root:send: ['attack', 163, 143, False, 18]
+INFO:root:send: ['attack', 126, 146, False, 19]
+INFO:root:send: ['attack', 146, 166, False, 20]
+INFO:root:send: ['attack', 166, 167, False, 21]
+INFO:root:send: ['attack', 167, 168, False, 22]
+INFO:root:send: ['attack', 168, 188, False, 23]
+INFO:root:send: ['attack', 188, 208, False, 24]
+INFO:root:send: ['attack', 126, 146, False, 25]
+INFO:root:send: ['attack', 146, 145, False, 26]
+INFO:root:send: ['attack', 145, 144, False, 27]
+INFO:root:send: ['attack', 144, 124, False, 28]
+INFO:root:send: ['attack', 126, 127, False, 29]
+INFO:root:send: ['attack', 127, 107, False, 30]
+0 (-1, -1)
+(10, 10)
+INFO:root:send: ['attack', 208, 209, False, 31]
+INFO:root:send: ['attack', 250, 230, False, 32]
+INFO:root:send: ['attack', 188, 189, False, 33]
+INFO:root:send: ['attack', 249, 229, False, 34]
+INFO:root:send: ['attack', 248, 228, False, 35]
+INFO:root:send: ['attack', 186, 187, False, 36]
+INFO:root:send: ['attack', 206, 205, False, 37]
+INFO:root:send: ['attack', 184, 204, False, 38]
+INFO:root:send: ['attack', 226, 225, False, 39]
+INFO:root:send: ['attack', 247, 267, False, 40]
+INFO:root:send: ['attack', 127, 128, False, 41]
+INFO:root:send: ['attack', 183, 203, False, 42]
+INFO:root:send: ['attack', 166, 165, False, 43]
+INFO:root:send: ['attack', 246, 245, False, 44]
+INFO:root:send: ['attack', 107, 87, False, 45]
+INFO:root:send: ['attack', 163, 162, False, 46]
+INFO:root:send: ['attack', 143, 142, False, 47]
+INFO:root:send: ['attack', 124, 123, False, 48]
+0 (-1, -1)
+(10, 10)
+INFO:root:send: ['attack', 126, 146, False, 49]
+INFO:root:send: ['attack', 146, 166, False, 50]
+INFO:root:send: ['attack', 166, 167, False, 51]
+INFO:root:send: ['attack', 167, 168, False, 52]
+INFO:root:send: ['attack', 168, 188, False, 53]
+INFO:root:send: ['attack', 188, 208, False, 54]
+INFO:root:send: ['attack', 208, 209, False, 55]
+INFO:root:send: ['attack', 209, 229, False, 56]
+INFO:root:send: ['attack', 229, 249, False, 57]
+INFO:root:send: ['attack', 249, 269, False, 58]
+INFO:root:send: ['attack', 269, 289, False, 59]
+INFO:root:send: ['attack', 289, 290, False, 60]
+INFO:root:send: ['attack', 290, 291, False, 61]
+INFO:root:send: ['attack', 291, 292, False, 62]
+INFO:root:send: ['attack', 292, 312, False, 63]
+INFO:root:send: ['attack', 312, 332, False, 64]
+INFO:root:send: ['attack', 332, 333, False, 65]
+INFO:root:send: ['attack', 333, 334, False, 66]
+3 (-1, -1)
+INFO:root:send: ['attack', 126, 146, False, 67]
+INFO:root:send: ['attack', 146, 166, False, 68]
+INFO:root:send: ['attack', 166, 186, False, 69]
+INFO:root:send: ['attack', 186, 206, False, 70]
+INFO:root:send: ['attack', 206, 226, False, 71]
+INFO:root:send: ['attack', 226, 246, False, 72]
+INFO:root:send: ['attack', 144, 145, False, 73]
+INFO:root:send: ['attack', 145, 165, False, 74]
+INFO:root:send: ['attack', 165, 185, False, 75]
+INFO:root:send: ['attack', 185, 205, False, 76]
+INFO:root:send: ['attack', 205, 225, False, 77]
+INFO:root:send: ['attack', 225, 245, False, 78]
+INFO:root:send: ['attack', 245, 246, False, 79]
+INFO:root:send: ['attack', 246, 247, False, 80]
+INFO:root:send: ['attack', 247, 248, False, 81]
+INFO:root:send: ['attack', 248, 249, False, 82]
+INFO:root:send: ['attack', 249, 269, False, 83]
+INFO:root:send: ['attack', 269, 289, False, 84]
+INFO:root:send: ['attack', 289, 290, False, 85]
+INFO:root:send: ['attack', 290, 291, False, 86]
+INFO:root:send: ['attack', 291, 292, False, 87]
+INFO:root:send: ['attack', 292, 293, False, 88]
+INFO:root:send: ['attack', 293, 313, False, 89]
+INFO:root:send: ['attack', 313, 333, False, 90]
+5 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 142, 141, False, 91]
+INFO:root:send: ['attack', 123, 103, False, 92]
+INFO:root:send: ['attack', 162, 161, False, 93]
+INFO:root:send: ['attack', 124, 104, False, 94]
+INFO:root:send: ['attack', 87, 86, False, 95]
+INFO:root:send: ['attack', 183, 182, False, 96]
+INFO:root:send: ['attack', 203, 202, False, 97]
+INFO:root:send: ['attack', 225, 224, False, 98]
+INFO:root:send: ['attack', 245, 244, False, 99]
+INFO:root:send: ['attack', 246, 266, False, 100]
+INFO:root:send: ['attack', 189, 190, False, 101]
+INFO:root:send: ['attack', 209, 210, False, 102]
+INFO:root:send: ['attack', 267, 287, False, 103]
+INFO:root:send: ['attack', 332, 352, False, 104]
+5 (-1, -1)
+INFO:root:send: ['attack', 126, 146, False, 105]
+INFO:root:send: ['attack', 146, 166, False, 106]
+INFO:root:send: ['attack', 166, 186, False, 107]
+INFO:root:send: ['attack', 186, 187, False, 108]
+INFO:root:send: ['attack', 187, 188, False, 109]
+INFO:root:send: ['attack', 188, 208, False, 110]
+INFO:root:send: ['attack', 208, 228, False, 111]
+INFO:root:send: ['attack', 228, 229, False, 112]
+INFO:root:send: ['attack', 229, 230, False, 113]
+INFO:root:send: ['attack', 230, 250, False, 114]
+8 (-1, -1)
+INFO:root:send: ['attack', 230, 229, False, 115]
+INFO:root:send: ['attack', 126, 146, False, 116]
+INFO:root:send: ['attack', 146, 145, False, 117]
+INFO:root:send: ['attack', 145, 165, False, 118]
+INFO:root:send: ['attack', 165, 185, False, 119]
+INFO:root:send: ['attack', 185, 205, False, 120]
+INFO:root:send: ['attack', 205, 206, False, 121]
+INFO:root:send: ['attack', 206, 226, False, 122]
+INFO:root:send: ['attack', 226, 246, False, 123]
+14 (-1, -1)
+INFO:root:send: ['attack', 107, 127, False, 124]
+INFO:root:send: ['attack', 128, 127, False, 125]
+INFO:root:send: ['attack', 127, 126, False, 126]
+INFO:root:send: ['attack', 126, 146, False, 127]
+INFO:root:send: ['attack', 146, 166, False, 128]
+INFO:root:send: ['attack', 168, 167, False, 129]
+INFO:root:send: ['attack', 167, 166, False, 130]
+INFO:root:send: ['attack', 166, 186, False, 131]
+INFO:root:send: ['attack', 186, 206, False, 132]
+INFO:root:send: ['attack', 206, 226, False, 133]
+13 (-1, -1)
+INFO:root:send: ['attack', 127, 126, False, 134]
+13 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 141, 140, False, 135]
+INFO:root:send: ['attack', 103, 83, False, 136]
+INFO:root:send: ['attack', 86, 66, False, 137]
+INFO:root:send: ['attack', 104, 105, False, 138]
+INFO:root:send: ['attack', 202, 201, False, 139]
+INFO:root:send: ['attack', 87, 88, False, 140]
+INFO:root:send: ['attack', 244, 243, False, 141]
+INFO:root:send: ['attack', 245, 265, False, 142]
+INFO:root:send: ['attack', 190, 170, False, 143]
+INFO:root:send: ['attack', 266, 286, False, 144]
+INFO:root:send: ['attack', 267, 268, False, 145]
+INFO:root:send: ['attack', 210, 211, False, 146]
+INFO:root:send: ['attack', 287, 307, False, 147]
+INFO:root:send: ['attack', 289, 288, False, 148]
+INFO:root:send: ['attack', 269, 270, False, 149]
+INFO:root:send: ['attack', 290, 310, False, 150]
+INFO:root:send: ['attack', 312, 292, False, 151]
+INFO:root:send: ['attack', 352, 351, False, 152]
+13 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 312, 292, False, 153]
+13 (-1, -1)
+INFO:root:send: ['attack', 209, 229, False, 154]
+INFO:root:send: ['attack', 126, 146, False, 155]
+INFO:root:send: ['attack', 146, 166, False, 156]
+INFO:root:send: ['attack', 166, 167, False, 157]
+INFO:root:send: ['attack', 167, 187, False, 158]
+INFO:root:send: ['attack', 144, 145, False, 159]
+INFO:root:send: ['attack', 145, 165, False, 160]
+INFO:root:send: ['attack', 165, 185, False, 161]
+INFO:root:send: ['attack', 143, 163, False, 162]
+INFO:root:send: ['attack', 163, 183, False, 163]
+INFO:root:send: ['attack', 183, 184, False, 164]
+INFO:root:send: ['attack', 204, 184, False, 165]
+INFO:root:send: ['attack', 184, 185, False, 166]
+INFO:root:send: ['attack', 185, 186, False, 167]
+INFO:root:send: ['attack', 186, 187, False, 168]
+INFO:root:send: ['attack', 187, 188, False, 169]
+INFO:root:send: ['attack', 188, 208, False, 170]
+INFO:root:send: ['attack', 208, 228, False, 171]
+INFO:root:send: ['attack', 228, 229, False, 172]
+INFO:root:!!!! Game Complete. Result = False !!!!
+INFO:root:Moves: 191, Realized: 188
+INFO:root:exiting
+INFO:root:send: ['surrender']
+INFO:root:send: ['attack', 229, 230, False, 173]
+INFO:root:send: ['cancel']
+INFO:root:send: ['leave_game']
+INFO:root:exiting
+INFO:root:exiting
+INFO:root:
+
+
+
+INFO:root:send: ['set_username', 'sdlfkjsdlfk', '[Bot] dsgfhj']
+INFO:root:Joining games
+INFO:root:send: ['join_private', '40mt', 'sdlfkjsdlfk']
+INFO:root:Connection Closed
+INFO:root:exiting
+INFO:root:send: ['surrender']
+INFO:root:send: ['cancel']
+INFO:root:send: ['leave_game']
+INFO:root:exiting
+INFO:root:
+
+
+
+INFO:root:send: ['set_username', 'sdlfkjsdlfk', '[Bot] dsgfhj']
+INFO:root:Joining games
+INFO:root:send: ['join_private', '40mt', 'sdlfkjsdlfk']
+INFO:root:error_set_username: ['This username is already taken.']
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 13: ['hotdog69', 'tem_shett_'], 2: [None]}
+INFO:root:Message: [Bot] dsgfhj joined the custom lobby.
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 13: ['hotdog69', 'tem_shett_'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 13: ['hotdog69', 'tem_shett_'], 2: ['[Bot] dsgfhj']}
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:From hotdog69: go
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 13: ['hotdog69', 'tem_shett_'], 2: ['[Bot] dsgfhj']}
+INFO:root:pre_game_start
+INFO:root:Joined Game: http://bot.generals.io/replays/XJuuQtN6b - ['[Bot] aaaadsfakljn', '[Bot] dsgfhj']
+INFO:root:Message:  Chat is being recorded.
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+(25, 49, [((17, 2), (17, 1), 22), ((17, 1), (16, 1), 0), ((16, 1), (15, 1), 0), ((15, 1), (14, 1), 0), ((14, 1), (14, 2), 0), ((14, 2), (14, 3), 0), ((14, 3), (14, 4), 0), ((14, 4), (13, 4), 0), ((13, 4), (12, 4), 0), ((12, 4), (11, 4), 0), ((11, 4), (10, 4), 0), ((17, 2), (17, 1), 36), ((17, 1), (18, 1), 0), ((18, 1), (19, 1), 0), ((19, 1), (20, 1), 0), ((20, 1), (21, 1), 0), ((21, 1), (21, 2), 0), ((21, 2), (21, 3), 0), ((21, 3), (21, 4), 0), ((17, 2), (18, 2), 44), ((18, 2), (19, 2), 0), ((19, 2), (19, 3), 0), ((19, 3), (18, 3), 0), ((17, 2), (17, 3), 48), ((17, 3), (16, 3), 0)])
+INFO:root:send: ['attack', 63, 40, False, 1]
+INFO:root:send: ['attack', 40, 39, False, 2]
+INFO:root:send: ['attack', 39, 38, False, 3]
+INFO:root:send: ['attack', 38, 37, False, 4]
+INFO:root:send: ['attack', 37, 60, False, 5]
+INFO:root:send: ['attack', 60, 83, False, 6]
+INFO:root:send: ['attack', 83, 106, False, 7]
+INFO:root:send: ['attack', 106, 105, False, 8]
+INFO:root:send: ['attack', 105, 104, False, 9]
+INFO:root:send: ['attack', 104, 103, False, 10]
+INFO:root:send: ['attack', 103, 102, False, 11]
+INFO:root:send: ['attack', 63, 40, False, 12]
+INFO:root:send: ['attack', 40, 41, False, 13]
+INFO:root:send: ['attack', 41, 42, False, 14]
+INFO:root:send: ['attack', 42, 43, False, 15]
+INFO:root:send: ['attack', 43, 44, False, 16]
+INFO:root:send: ['attack', 44, 67, False, 17]
+INFO:root:send: ['attack', 67, 90, False, 18]
+INFO:root:send: ['attack', 90, 113, False, 19]
+INFO:root:send: ['attack', 63, 64, False, 20]
+INFO:root:send: ['attack', 64, 65, False, 21]
+INFO:root:send: ['attack', 65, 88, False, 22]
+INFO:root:send: ['attack', 88, 87, False, 23]
+INFO:root:send: ['attack', 63, 86, False, 24]
+INFO:root:send: ['attack', 86, 85, False, 25]
+0 (-1, -1)
+(11, 11)
+INFO:root:send: ['attack', 102, 125, False, 26]
+INFO:root:send: ['attack', 103, 80, False, 27]
+INFO:root:send: ['attack', 105, 128, False, 28]
+INFO:root:send: ['attack', 106, 129, False, 29]
+INFO:root:send: ['attack', 83, 82, False, 30]
+INFO:root:send: ['attack', 37, 36, False, 31]
+INFO:root:send: ['attack', 85, 84, False, 32]
+INFO:root:send: ['attack', 60, 61, False, 33]
+INFO:root:send: ['attack', 38, 15, False, 34]
+INFO:root:send: ['attack', 39, 16, False, 35]
+INFO:root:send: ['attack', 113, 112, False, 36]
+INFO:root:send: ['attack', 40, 17, False, 37]
+INFO:root:send: ['attack', 41, 18, False, 38]
+INFO:root:send: ['attack', 65, 66, False, 39]
+INFO:root:send: ['attack', 42, 19, False, 40]
+INFO:root:send: ['attack', 90, 91, False, 41]
+INFO:root:send: ['attack', 43, 20, False, 42]
+INFO:root:send: ['attack', 67, 68, False, 43]
+INFO:root:send: ['attack', 44, 21, False, 44]
+0 (-1, -1)
+(11, 11)
+INFO:root:send: ['attack', 63, 86, False, 45]
+INFO:root:send: ['attack', 86, 85, False, 46]
+INFO:root:send: ['attack', 85, 84, False, 47]
+INFO:root:send: ['attack', 84, 83, False, 48]
+INFO:root:send: ['attack', 83, 82, False, 49]
+INFO:root:send: ['attack', 82, 105, False, 50]
+INFO:root:send: ['attack', 105, 104, False, 51]
+INFO:root:send: ['attack', 104, 103, False, 52]
+INFO:root:send: ['attack', 103, 102, False, 53]
+INFO:root:send: ['attack', 102, 101, False, 54]
+INFO:root:send: ['attack', 101, 100, False, 55]
+INFO:root:send: ['attack', 100, 99, False, 56]
+INFO:root:send: ['attack', 99, 122, False, 57]
+INFO:root:send: ['attack', 122, 145, False, 58]
+INFO:root:send: ['attack', 145, 168, False, 59]
+INFO:root:send: ['attack', 168, 167, False, 60]
+INFO:root:send: ['attack', 167, 166, False, 61]
+INFO:root:send: ['attack', 166, 189, False, 62]
+INFO:root:send: ['attack', 189, 212, False, 63]
+INFO:root:send: ['attack', 212, 211, False, 64]
+INFO:root:send: ['attack', 211, 234, False, 65]
+INFO:root:send: ['attack', 234, 257, False, 66]
+1 (-1, -1)
+(21, 5)
+INFO:root:send: ['attack', 63, 64, False, 67]
+INFO:root:send: ['attack', 87, 64, False, 68]
+INFO:root:send: ['attack', 64, 65, False, 69]
+INFO:root:send: ['attack', 88, 65, False, 70]
+INFO:root:send: ['attack', 65, 66, False, 71]
+INFO:root:send: ['attack', 66, 67, False, 72]
+INFO:root:send: ['attack', 67, 90, False, 73]
+INFO:root:send: ['attack', 90, 113, False, 74]
+INFO:root:send: ['attack', 113, 136, False, 75]
+INFO:root:send: ['attack', 136, 159, False, 76]
+INFO:root:send: ['attack', 159, 158, False, 77]
+INFO:root:send: ['attack', 158, 181, False, 78]
+INFO:root:send: ['attack', 181, 204, False, 79]
+INFO:root:send: ['attack', 204, 227, False, 80]
+4 (-1, -1)
+INFO:root:send: ['attack', 21, 44, False, 81]
+INFO:root:send: ['attack', 44, 67, False, 82]
+INFO:root:send: ['attack', 20, 43, False, 83]
+INFO:root:send: ['attack', 43, 66, False, 84]
+INFO:root:send: ['attack', 19, 42, False, 85]
+INFO:root:send: ['attack', 42, 65, False, 86]
+INFO:root:send: ['attack', 63, 64, False, 87]
+INFO:root:send: ['attack', 64, 65, False, 88]
+INFO:root:send: ['attack', 65, 66, False, 89]
+INFO:root:send: ['attack', 66, 67, False, 90]
+INFO:root:send: ['attack', 67, 90, False, 91]
+INFO:root:send: ['attack', 90, 113, False, 92]
+INFO:root:send: ['attack', 113, 136, False, 93]
+INFO:root:send: ['attack', 136, 159, False, 94]
+INFO:root:send: ['attack', 159, 158, False, 95]
+INFO:root:send: ['attack', 158, 181, False, 96]
+INFO:root:send: ['attack', 181, 204, False, 97]
+INFO:root:send: ['attack', 204, 203, False, 98]
+INFO:root:send: ['attack', 203, 226, False, 99]
+INFO:root:send: ['attack', 226, 249, False, 100]
+INFO:root:send: ['attack', 249, 272, False, 101]
+INFO:root:send: ['attack', 272, 295, False, 102]
+10 (-1, -1)
+INFO:root:send: ['attack', 36, 37, False, 103]
+INFO:root:send: ['attack', 37, 60, False, 104]
+INFO:root:send: ['attack', 60, 83, False, 105]
+INFO:root:send: ['attack', 83, 106, False, 106]
+9 (-1, -1)
+INFO:root:send: ['attack', 63, 86, False, 107]
+INFO:root:send: ['attack', 86, 85, False, 108]
+INFO:root:send: ['attack', 85, 84, False, 109]
+INFO:root:send: ['attack', 84, 83, False, 110]
+INFO:root:send: ['attack', 83, 106, False, 111]
+INFO:root:send: ['attack', 106, 129, False, 112]
+INFO:root:send: ['attack', 129, 130, False, 113]
+9 (-1, -1)
+INFO:root:send: ['attack', 130, 131, False, 114]
+9 (-1, -1)
+INFO:root:send: ['attack', 131, 154, False, 115]
+INFO:root:send: ['attack', 154, 155, False, 116]
+8 (-1, -1)
+INFO:root:send: ['attack', 155, 156, False, 117]
+7 (-1, -1)
+INFO:root:send: ['attack', 18, 17, False, 118]
+INFO:root:send: ['attack', 17, 16, False, 119]
+INFO:root:send: ['attack', 16, 15, False, 120]
+INFO:root:send: ['attack', 15, 38, False, 121]
+INFO:root:send: ['attack', 41, 40, False, 122]
+INFO:root:send: ['attack', 63, 40, False, 123]
+INFO:root:send: ['attack', 40, 39, False, 124]
+INFO:root:send: ['attack', 39, 38, False, 125]
+INFO:root:send: ['attack', 38, 61, False, 126]
+INFO:root:send: ['attack', 61, 60, False, 127]
+INFO:root:send: ['attack', 60, 83, False, 128]
+INFO:root:send: ['attack', 82, 83, False, 129]
+INFO:root:send: ['attack', 83, 106, False, 130]
+INFO:root:send: ['attack', 106, 129, False, 131]
+INFO:root:send: ['attack', 128, 129, False, 132]
+INFO:root:send: ['attack', 129, 130, False, 133]
+INFO:root:send: ['attack', 130, 131, False, 134]
+INFO:root:send: ['attack', 131, 154, False, 135]
+INFO:root:send: ['attack', 156, 155, False, 136]
+INFO:root:send: ['attack', 155, 154, False, 137]
+INFO:root:send: ['attack', 154, 177, False, 138]
+INFO:root:send: ['attack', 63, 86, False, 139]
+14 (-1, -1)
+INFO:root:send: ['attack', 86, 85, False, 140]
+INFO:root:send: ['attack', 85, 84, False, 141]
+INFO:root:send: ['attack', 84, 83, False, 142]
+INFO:root:send: ['attack', 83, 106, False, 143]
+INFO:root:send: ['attack', 106, 129, False, 144]
+INFO:root:send: ['attack', 129, 130, False, 145]
+INFO:root:send: ['attack', 130, 131, False, 146]
+INFO:root:send: ['attack', 131, 154, False, 147]
+INFO:root:send: ['attack', 154, 155, False, 148]
+12 (-1, -1)
+INFO:root:send: ['attack', 155, 156, False, 149]
+11 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 99, 76, False, 150]
+INFO:root:send: ['attack', 166, 165, False, 151]
+INFO:root:send: ['attack', 122, 121, False, 152]
+INFO:root:send: ['attack', 100, 77, False, 153]
+INFO:root:send: ['attack', 211, 210, False, 154]
+INFO:root:send: ['attack', 101, 78, False, 155]
+INFO:root:send: ['attack', 234, 233, False, 156]
+INFO:root:send: ['attack', 102, 79, False, 157]
+INFO:root:send: ['attack', 36, 35, False, 158]
+INFO:root:send: ['attack', 257, 256, False, 159]
+INFO:root:send: ['attack', 189, 190, False, 160]
+INFO:root:send: ['attack', 145, 146, False, 161]
+INFO:root:send: ['attack', 15, 14, False, 162]
+INFO:root:send: ['attack', 212, 235, False, 163]
+INFO:root:send: ['attack', 168, 191, False, 164]
+INFO:root:send: ['attack', 125, 148, False, 165]
+INFO:root:send: ['attack', 21, 22, False, 166]
+INFO:root:send: ['attack', 181, 180, False, 167]
+INFO:root:send: ['attack', 113, 114, False, 168]
+18 (-1, -1)
+INFO:root:send: ['attack', 63, 86, False, 169]
+INFO:root:send: ['attack', 88, 87, False, 170]
+INFO:root:send: ['attack', 87, 86, False, 171]
+INFO:root:send: ['attack', 86, 85, False, 172]
+INFO:root:send: ['attack', 85, 84, False, 173]
+INFO:root:send: ['attack', 84, 83, False, 174]
+INFO:root:send: ['attack', 83, 106, False, 175]
+INFO:root:send: ['attack', 106, 129, False, 176]
+INFO:root:send: ['attack', 129, 130, False, 177]
+INFO:root:send: ['attack', 130, 131, False, 178]
+INFO:root:send: ['attack', 16, 39, False, 179]
+17 (-1, -1)
+INFO:root:send: ['attack', 39, 38, False, 180]
+INFO:root:send: ['attack', 38, 61, False, 181]
+INFO:root:send: ['attack', 61, 60, False, 182]
+16 (-1, -1)
+INFO:root:send: ['attack', 131, 154, False, 183]
+INFO:root:send: ['attack', 154, 155, False, 184]
+14 (-1, -1)
+INFO:root:send: ['attack', 60, 83, False, 185]
+INFO:root:send: ['attack', 85, 84, False, 186]
+INFO:root:send: ['attack', 84, 83, False, 187]
+INFO:root:send: ['attack', 83, 82, False, 188]
+13 (-1, -1)
+INFO:root:send: ['attack', 155, 156, False, 189]
+INFO:root:send: ['attack', 136, 159, False, 190]
+INFO:root:send: ['attack', 159, 158, False, 191]
+INFO:root:send: ['attack', 158, 181, False, 192]
+INFO:root:send: ['attack', 204, 181, False, 193]
+INFO:root:send: ['attack', 181, 180, False, 194]
+12 (-1, -1)
+INFO:root:send: ['attack', 17, 40, False, 195]
+INFO:root:send: ['attack', 40, 63, False, 196]
+INFO:root:send: ['attack', 91, 68, False, 197]
+INFO:root:send: ['attack', 68, 67, False, 198]
+INFO:root:send: ['attack', 67, 66, False, 199]
+INFO:root:send: ['attack', 66, 65, False, 200]
+INFO:root:send: ['attack', 65, 64, False, 201]
+INFO:root:send: ['attack', 64, 63, False, 202]
+18 (-1, -1)
+INFO:root:send: ['attack', 82, 83, False, 203]
+INFO:root:send: ['attack', 63, 86, False, 204]
+INFO:root:send: ['attack', 87, 86, False, 205]
+INFO:root:send: ['attack', 86, 85, False, 206]
+INFO:root:send: ['attack', 85, 84, False, 207]
+INFO:root:send: ['attack', 84, 83, False, 208]
+INFO:root:send: ['attack', 83, 106, False, 209]
+INFO:root:send: ['attack', 106, 129, False, 210]
+INFO:root:send: ['attack', 129, 130, False, 211]
+INFO:root:send: ['attack', 130, 131, False, 212]
+21 (-1, -1)
+INFO:root:send: ['attack', 19, 18, False, 213]
+INFO:root:send: ['attack', 18, 17, False, 214]
+INFO:root:send: ['attack', 17, 16, False, 215]
+20 (-1, -1)
+INFO:root:send: ['attack', 131, 130, False, 216]
+INFO:root:send: ['attack', 130, 129, False, 217]
+INFO:root:send: ['attack', 129, 106, False, 218]
+INFO:root:send: ['attack', 106, 83, False, 219]
+INFO:root:send: ['attack', 83, 60, False, 220]
+19 (-1, -1)
+INFO:root:send: ['attack', 60, 61, False, 221]
+INFO:root:send: ['attack', 61, 38, False, 222]
+INFO:root:send: ['attack', 38, 15, False, 223]
+18 (-1, -1)
+INFO:root:send: ['attack', 15, 38, False, 224]
+INFO:root:send: ['attack', 38, 37, False, 225]
+17 (-1, -1)
+INFO:root:send: ['attack', 37, 60, False, 226]
+INFO:root:send: ['attack', 60, 83, False, 227]
+INFO:root:send: ['attack', 83, 106, False, 228]
+INFO:root:send: ['attack', 106, 129, False, 229]
+INFO:root:send: ['attack', 129, 130, False, 230]
+INFO:root:send: ['attack', 130, 131, False, 231]
+INFO:root:send: ['attack', 131, 154, False, 232]
+INFO:root:send: ['attack', 154, 155, False, 233]
+17 (-1, -1)
+INFO:root:send: ['attack', 18, 17, False, 234]
+INFO:root:send: ['attack', 17, 16, False, 235]
+INFO:root:send: ['attack', 16, 15, False, 236]
+INFO:root:send: ['attack', 15, 14, False, 237]
+18 (-1, -1)
+INFO:root:send: ['attack', 63, 86, False, 238]
+INFO:root:send: ['attack', 86, 85, False, 239]
+INFO:root:send: ['attack', 85, 84, False, 240]
+INFO:root:send: ['attack', 84, 83, False, 241]
+INFO:root:send: ['attack', 83, 82, False, 242]
+17 (-1, -1)
+INFO:root:send: ['attack', 155, 156, False, 243]
+16 (-1, -1)
+INFO:root:send: ['attack', 43, 42, False, 244]
+INFO:root:send: ['attack', 42, 41, False, 245]
+INFO:root:send: ['attack', 41, 40, False, 246]
+INFO:root:send: ['attack', 40, 63, False, 247]
+16 (-1, -1)
+INFO:root:send: ['attack', 82, 83, False, 248]
+INFO:root:send: ['attack', 83, 106, False, 249]
+INFO:root:send: ['attack', 106, 129, False, 250]
+INFO:root:send: ['attack', 156, 155, False, 251]
+INFO:root:send: ['attack', 155, 154, False, 252]
+INFO:root:send: ['attack', 154, 131, False, 253]
+INFO:root:send: ['attack', 131, 130, False, 254]
+INFO:root:send: ['attack', 130, 129, False, 255]
+INFO:root:send: ['attack', 129, 128, False, 256]
+INFO:root:send: ['attack', 128, 105, False, 257]
+INFO:root:send: ['attack', 105, 104, False, 258]
+INFO:root:send: ['attack', 104, 103, False, 259]
+INFO:root:send: ['attack', 103, 102, False, 260]
+INFO:root:send: ['attack', 102, 125, False, 261]
+INFO:root:send: ['attack', 125, 148, False, 262]
+INFO:root:send: ['attack', 148, 147, False, 263]
+INFO:root:send: ['attack', 147, 170, False, 264]
+INFO:root:send: ['attack', 170, 169, False, 265]
+INFO:root:send: ['attack', 169, 192, False, 266]
+INFO:root:send: ['attack', 192, 215, False, 267]
+INFO:root:send: ['attack', 215, 214, False, 268]
+INFO:root:send: ['attack', 214, 213, False, 269]
+INFO:root:send: ['attack', 213, 236, False, 270]
+INFO:root:send: ['attack', 236, 259, False, 271]
+INFO:root:send: ['attack', 259, 282, False, 272]
+INFO:root:send: ['attack', 282, 305, False, 273]
+INFO:root:send: ['attack', 305, 304, False, 274]
+INFO:root:send: ['attack', 304, 303, False, 275]
+INFO:root:send: ['attack', 303, 302, False, 276]
+INFO:root:send: ['attack', 302, 301, False, 277]
+INFO:root:send: ['attack', 301, 324, False, 278]
+INFO:root:send: ['attack', 324, 347, False, 279]
+INFO:root:send: ['attack', 347, 370, False, 280]
+INFO:root:send: ['attack', 370, 393, False, 281]
+INFO:root:send: ['attack', 393, 416, False, 282]
+INFO:root:send: ['attack', 416, 415, False, 283]
+INFO:root:send: ['attack', 415, 438, False, 284]
+INFO:root:!!!! Game Complete. Result = False !!!!
+INFO:root:Moves: 308, Realized: 302
+INFO:root:exiting
+INFO:root:send: ['surrender']
+INFO:root:send: ['cancel']
+INFO:root:send: ['leave_game']
+27 (-1, -1)
+INFO:root:send: ['attack', 21, 44, False, 285]
+INFO:root:exiting
+INFO:root:exiting
+INFO:root:
+
+
+
+INFO:root:send: ['set_username', 'sdlfkjsdlfk', '[Bot] dsgfhj']
+INFO:root:Joining games
+INFO:root:send: ['join_private', '40mt', 'sdlfkjsdlfk']
+INFO:root:Connection Closed
+INFO:root:exiting
+INFO:root:send: ['surrender']
+CRITICAL:root:'GeneralsBot' object has no attribute '_map'
+Traceback (most recent call last):
+  File "/home/tem_shett/HSE/kursach/generalsio-bot/base/bot_base.py", line 81, in _start_moves_thread
+    self._make_move()
+  File "/home/tem_shett/HSE/kursach/generalsio-bot/base/bot_base.py", line 91, in _make_move
+    self._moveMethod(self, self._map)
+AttributeError: 'GeneralsBot' object has no attribute '_map'. Did you mean: _game?
+INFO:root:send: ['cancel']
+INFO:root:exiting
+INFO:root:send: ['surrender']
+INFO:root:send: ['leave_game']
+INFO:root:send: ['cancel']
+INFO:root:send: ['leave_game']
+INFO:root:exiting
+INFO:root:
+
+
+
+INFO:root:send: ['set_username', 'sdlfkjsdlfk', '[Bot] dsgfhj']
+INFO:root:Joining games
+INFO:root:send: ['join_private', '40mt', 'sdlfkjsdlfk']
+INFO:root:error_set_username: ['This username is already taken.']
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 13: ['hotdog69'], 2: [None]}
+INFO:root:Message: [Bot] dsgfhj joined the custom lobby.
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 13: ['hotdog69'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/3 {1: ['[Bot] aaaadsfakljn'], 13: ['hotdog69'], 2: ['[Bot] dsgfhj'], 3: ['tem_shett_']}
+INFO:root:Message: tem_shett_ joined the custom lobby.
+INFO:root:Queue 1/3 {1: ['[Bot] aaaadsfakljn'], 13: ['hotdog69'], 2: ['[Bot] dsgfhj'], 3: ['tem_shett_']}
+INFO:root:notify: ['tem_shett_ joined the custom game', 'There are now 4 players in the lobby.']
+INFO:root:Queue 0/2 {1: ['[Bot] aaaadsfakljn'], 13: ['hotdog69', 'tem_shett_'], 2: ['[Bot] dsgfhj']}
+INFO:root:Message: tem_shett_ joined the spectators.
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 13: ['hotdog69', 'tem_shett_'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 13: ['hotdog69', 'tem_shett_'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 13: ['hotdog69', 'tem_shett_'], 2: ['[Bot] dsgfhj']}
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:pre_game_start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:Joined Game: http://bot.generals.io/replays/p99ttMDA5 - ['[Bot] aaaadsfakljn', '[Bot] dsgfhj']
+INFO:root:Message:  Chat is being recorded.
+(25, 62, [((8, 17), (9, 17), 22), ((9, 17), (10, 17), 0), ((10, 17), (11, 17), 0), ((11, 17), (12, 17), 0), ((12, 17), (13, 17), 0), ((13, 17), (14, 17), 0), ((14, 17), (14, 18), 0), ((14, 18), (14, 19), 0), ((14, 19), (14, 20), 0), ((14, 20), (14, 21), 0), ((14, 21), (14, 22), 0), ((8, 17), (9, 17), 36), ((9, 17), (9, 18), 0), ((9, 18), (9, 19), 0), ((9, 19), (9, 20), 0), ((9, 20), (9, 21), 0), ((9, 21), (8, 21), 0), ((8, 21), (7, 21), 0), ((7, 21), (6, 21), 0), ((8, 17), (8, 16), 44), ((8, 16), (8, 15), 0), ((8, 15), (8, 14), 0), ((8, 14), (7, 14), 0), ((8, 17), (7, 17), 48), ((7, 17), (7, 18), 0)])
+INFO:root:send: ['attack', 348, 349, False, 1]
+INFO:root:send: ['attack', 349, 350, False, 2]
+INFO:root:send: ['attack', 350, 351, False, 3]
+INFO:root:send: ['attack', 351, 352, False, 4]
+INFO:root:send: ['attack', 352, 353, False, 5]
+INFO:root:send: ['attack', 353, 354, False, 6]
+INFO:root:send: ['attack', 354, 374, False, 7]
+INFO:root:send: ['attack', 374, 394, False, 8]
+INFO:root:send: ['attack', 394, 414, False, 9]
+INFO:root:send: ['attack', 414, 434, False, 10]
+INFO:root:send: ['attack', 434, 454, False, 11]
+INFO:root:send: ['attack', 348, 349, False, 12]
+INFO:root:send: ['attack', 349, 369, False, 13]
+INFO:root:send: ['attack', 369, 389, False, 14]
+INFO:root:send: ['attack', 389, 409, False, 15]
+INFO:root:send: ['attack', 409, 429, False, 16]
+INFO:root:send: ['attack', 429, 428, False, 17]
+INFO:root:send: ['attack', 428, 427, False, 18]
+INFO:root:send: ['attack', 427, 426, False, 19]
+INFO:root:send: ['attack', 348, 328, False, 20]
+INFO:root:send: ['attack', 328, 308, False, 21]
+INFO:root:send: ['attack', 308, 288, False, 22]
+INFO:root:send: ['attack', 288, 287, False, 23]
+INFO:root:send: ['attack', 348, 347, False, 24]
+INFO:root:send: ['attack', 347, 367, False, 25]
+0 (-1, -1)
+(10, 11)
+INFO:root:send: ['attack', 288, 268, False, 26]
+INFO:root:send: ['attack', 308, 309, False, 27]
+INFO:root:send: ['attack', 350, 330, False, 28]
+INFO:root:send: ['attack', 349, 329, False, 29]
+INFO:root:send: ['attack', 351, 331, False, 30]
+INFO:root:send: ['attack', 287, 286, False, 31]
+INFO:root:send: ['attack', 352, 332, False, 32]
+INFO:root:send: ['attack', 328, 327, False, 33]
+INFO:root:send: ['attack', 389, 390, False, 34]
+INFO:root:send: ['attack', 353, 333, False, 35]
+INFO:root:send: ['attack', 369, 368, False, 36]
+INFO:root:send: ['attack', 409, 410, False, 37]
+INFO:root:send: ['attack', 354, 334, False, 38]
+INFO:root:send: ['attack', 347, 346, False, 39]
+INFO:root:send: ['attack', 429, 430, False, 40]
+INFO:root:send: ['attack', 374, 373, False, 41]
+INFO:root:send: ['attack', 367, 366, False, 42]
+INFO:root:send: ['attack', 428, 408, False, 43]
+INFO:root:send: ['attack', 427, 407, False, 44]
+INFO:root:send: ['attack', 414, 413, False, 45]
+0 (-1, -1)
+(10, 11)
+INFO:root:send: ['attack', 426, 406, False, 46]
+INFO:root:send: ['attack', 434, 433, False, 47]
+INFO:root:send: ['attack', 394, 395, False, 48]
+INFO:root:send: ['attack', 454, 455, False, 49]
+0 (-1, -1)
+(10, 11)
+INFO:root:send: ['attack', 348, 328, False, 50]
+INFO:root:send: ['attack', 328, 308, False, 51]
+0 (-1, -1)
+(10, 11)
+INFO:root:send: ['attack', 328, 348, False, 52]
+INFO:root:send: ['attack', 348, 349, False, 53]
+INFO:root:send: ['attack', 349, 350, False, 54]
+INFO:root:send: ['attack', 350, 330, False, 55]
+INFO:root:send: ['attack', 330, 310, False, 56]
+0 (-1, -1)
+(10, 11)
+INFO:root:send: ['attack', 308, 307, False, 57]
+0 (-1, -1)
+(10, 11)
+INFO:root:send: ['attack', 307, 306, False, 58]
+0 (-1, -1)
+(10, 11)
+INFO:root:send: ['attack', 306, 307, False, 59]
+INFO:root:send: ['attack', 307, 327, False, 60]
+INFO:root:send: ['attack', 327, 347, False, 61]
+INFO:root:send: ['attack', 347, 348, False, 62]
+INFO:root:send: ['attack', 348, 349, False, 63]
+INFO:root:send: ['attack', 349, 350, False, 64]
+INFO:root:send: ['attack', 350, 330, False, 65]
+INFO:root:send: ['attack', 330, 310, False, 66]
+INFO:root:send: ['attack', 310, 290, False, 67]
+INFO:root:send: ['attack', 290, 270, False, 68]
+INFO:root:send: ['attack', 270, 271, False, 69]
+INFO:root:send: ['attack', 271, 251, False, 70]
+INFO:root:send: ['attack', 251, 231, False, 71]
+INFO:root:send: ['attack', 231, 211, False, 72]
+INFO:root:send: ['attack', 211, 212, False, 73]
+INFO:root:send: ['attack', 212, 213, False, 74]
+INFO:root:send: ['attack', 213, 193, False, 75]
+INFO:root:send: ['attack', 193, 194, False, 76]
+INFO:root:send: ['attack', 194, 174, False, 77]
+9 (-1, -1)
+INFO:root:send: ['attack', 268, 288, False, 78]
+INFO:root:send: ['attack', 306, 307, False, 79]
+INFO:root:send: ['attack', 310, 309, False, 80]
+INFO:root:send: ['attack', 309, 308, False, 81]
+INFO:root:send: ['attack', 348, 347, False, 82]
+INFO:root:send: ['attack', 347, 327, False, 83]
+INFO:root:send: ['attack', 327, 307, False, 84]
+INFO:root:send: ['attack', 307, 287, False, 85]
+11 (-1, -1)
+INFO:root:send: ['attack', 287, 288, False, 86]
+10 (-1, -1)
+INFO:root:send: ['attack', 288, 287, False, 87]
+INFO:root:send: ['attack', 287, 286, False, 88]
+9 (-1, -1)
+INFO:root:send: ['attack', 349, 348, False, 89]
+9 (-1, -1)
+INFO:root:send: ['attack', 286, 306, False, 90]
+INFO:root:send: ['attack', 306, 307, False, 91]
+INFO:root:send: ['attack', 307, 327, False, 92]
+INFO:root:send: ['attack', 327, 328, False, 93]
+INFO:root:send: ['attack', 366, 367, False, 94]
+INFO:root:send: ['attack', 367, 368, False, 95]
+INFO:root:send: ['attack', 368, 348, False, 96]
+INFO:root:send: ['attack', 348, 328, False, 97]
+INFO:root:send: ['attack', 328, 329, False, 98]
+INFO:root:send: ['attack', 329, 330, False, 99]
+INFO:root:send: ['attack', 350, 330, False, 100]
+INFO:root:send: ['attack', 330, 331, False, 101]
+INFO:root:send: ['attack', 351, 331, False, 102]
+INFO:root:send: ['attack', 331, 332, False, 103]
+INFO:root:send: ['attack', 352, 332, False, 104]
+INFO:root:send: ['attack', 332, 333, False, 105]
+INFO:root:send: ['attack', 334, 333, False, 106]
+INFO:root:send: ['attack', 354, 353, False, 107]
+INFO:root:send: ['attack', 373, 353, False, 108]
+INFO:root:send: ['attack', 353, 333, False, 109]
+INFO:root:send: ['attack', 333, 313, False, 110]
+INFO:root:send: ['attack', 313, 293, False, 111]
+INFO:root:send: ['attack', 293, 294, False, 112]
+INFO:root:send: ['attack', 294, 295, False, 113]
+INFO:root:send: ['attack', 295, 275, False, 114]
+INFO:root:send: ['attack', 275, 255, False, 115]
+INFO:root:send: ['attack', 255, 235, False, 116]
+INFO:root:send: ['attack', 235, 236, False, 117]
+INFO:root:send: ['attack', 236, 237, False, 118]
+INFO:root:send: ['attack', 237, 217, False, 119]
+INFO:root:send: ['attack', 217, 197, False, 120]
+INFO:root:send: ['attack', 197, 198, False, 121]
+INFO:root:send: ['attack', 198, 178, False, 122]
+INFO:root:send: ['attack', 178, 158, False, 123]
+INFO:root:send: ['attack', 158, 138, False, 124]
+INFO:root:send: ['attack', 138, 118, False, 125]
+INFO:root:send: ['attack', 118, 98, False, 126]
+INFO:root:send: ['attack', 98, 78, False, 127]
+INFO:root:send: ['attack', 78, 58, False, 128]
+INFO:root:send: ['attack', 58, 38, False, 129]
+INFO:root:send: ['attack', 38, 18, False, 130]
+INFO:root:send: ['attack', 18, 19, False, 131]
+19 (-1, -1)
+INFO:root:send: ['attack', 270, 290, False, 132]
+INFO:root:send: ['attack', 290, 310, False, 133]
+INFO:root:send: ['attack', 310, 330, False, 134]
+INFO:root:send: ['attack', 348, 328, False, 135]
+INFO:root:send: ['attack', 328, 329, False, 136]
+INFO:root:send: ['attack', 329, 330, False, 137]
+INFO:root:send: ['attack', 330, 331, False, 138]
+INFO:root:send: ['attack', 331, 332, False, 139]
+INFO:root:send: ['attack', 332, 333, False, 140]
+INFO:root:send: ['attack', 333, 313, False, 141]
+INFO:root:send: ['attack', 313, 293, False, 142]
+INFO:root:send: ['attack', 293, 294, False, 143]
+INFO:root:send: ['attack', 294, 295, False, 144]
+INFO:root:send: ['attack', 295, 275, False, 145]
+INFO:root:send: ['attack', 275, 255, False, 146]
+INFO:root:send: ['attack', 255, 235, False, 147]
+INFO:root:send: ['attack', 235, 236, False, 148]
+INFO:root:send: ['attack', 236, 237, False, 149]
+INFO:root:send: ['attack', 237, 217, False, 150]
+INFO:root:send: ['attack', 217, 197, False, 151]
+INFO:root:send: ['attack', 197, 198, False, 152]
+INFO:root:send: ['attack', 198, 178, False, 153]
+INFO:root:send: ['attack', 178, 158, False, 154]
+INFO:root:send: ['attack', 158, 157, False, 155]
+INFO:root:send: ['attack', 157, 156, False, 156]
+INFO:root:send: ['attack', 156, 136, False, 157]
+INFO:root:!!!! Game Complete. Result = True !!!!
+INFO:root:Moves: 181, Realized: 175
+INFO:root:exiting
+INFO:root:send: ['surrender']
+INFO:root:send: ['cancel']
+INFO:root:send: ['leave_game']
+INFO:root:exiting
+INFO:root:exiting
+INFO:root:
+
+
+
+INFO:root:send: ['set_username', 'sdlfkjsdlfk', '[Bot] dsgfhj']
+INFO:root:Joining games
+INFO:root:send: ['join_private', '40mt', 'sdlfkjsdlfk']
+INFO:root:error_set_username: ['This username is already taken.']
+INFO:root:Queue 0/2 {13: ['tem_shett_'], 1: ['[Bot] aaaadsfakljn'], 2: [None]}
+INFO:root:Message: [Bot] dsgfhj joined the custom lobby.
+INFO:root:Queue 0/2 {13: ['tem_shett_'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/2 {13: ['tem_shett_'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/2 {13: ['tem_shett_'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/3 {13: ['tem_shett_'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 3: ['hotdog69']}
+INFO:root:Message: hotdog69 joined the custom lobby.
+INFO:root:Queue 1/3 {13: ['tem_shett_'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 3: ['hotdog69']}
+INFO:root:notify: ['hotdog69 joined the custom game', 'There are now 4 players in the lobby.']
+INFO:root:Queue 0/2 {13: ['tem_shett_', 'hotdog69'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:Message: hotdog69 joined the spectators.
+INFO:root:Queue 1/2 {13: ['tem_shett_', 'hotdog69'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/2 {13: ['tem_shett_', 'hotdog69'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:pre_game_start
+INFO:root:Joined Game: http://bot.generals.io/replays/bPbWcYoOG - ['[Bot] aaaadsfakljn', '[Bot] dsgfhj']
+INFO:root:Message:  Chat is being recorded.
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+(25, 61, [((15, 12), (14, 12), 24), ((14, 12), (13, 12), 0), ((13, 12), (12, 12), 0), ((12, 12), (11, 12), 0), ((11, 12), (10, 12), 0), ((10, 12), (9, 12), 0), ((9, 12), (8, 12), 0), ((8, 12), (7, 12), 0), ((7, 12), (6, 12), 0), ((6, 12), (5, 12), 0), ((5, 12), (4, 12), 0), ((4, 12), (4, 13), 0), ((15, 12), (15, 13), 38), ((15, 13), (15, 14), 0), ((15, 14), (15, 15), 0), ((15, 15), (15, 16), 0), ((15, 16), (15, 17), 0), ((15, 17), (15, 18), 0), ((15, 18), (14, 18), 0), ((15, 12), (16, 12), 45), ((16, 12), (17, 12), 0), ((17, 12), (18, 12), 0), ((15, 12), (15, 11), 48), ((15, 11), (15, 10), 0)])
+INFO:root:send: ['attack', 243, 242, False, 1]
+INFO:root:send: ['attack', 242, 241, False, 2]
+INFO:root:send: ['attack', 241, 240, False, 3]
+INFO:root:send: ['attack', 240, 239, False, 4]
+INFO:root:send: ['attack', 239, 238, False, 5]
+INFO:root:send: ['attack', 238, 237, False, 6]
+INFO:root:send: ['attack', 237, 236, False, 7]
+INFO:root:send: ['attack', 236, 235, False, 8]
+INFO:root:send: ['attack', 235, 234, False, 9]
+INFO:root:send: ['attack', 234, 233, False, 10]
+INFO:root:send: ['attack', 233, 232, False, 11]
+INFO:root:send: ['attack', 232, 251, False, 12]
+INFO:root:send: ['attack', 243, 262, False, 13]
+INFO:root:send: ['attack', 262, 281, False, 14]
+INFO:root:send: ['attack', 281, 300, False, 15]
+INFO:root:send: ['attack', 300, 319, False, 16]
+INFO:root:send: ['attack', 319, 338, False, 17]
+INFO:root:send: ['attack', 338, 357, False, 18]
+INFO:root:send: ['attack', 357, 356, False, 19]
+INFO:root:send: ['attack', 243, 244, False, 20]
+INFO:root:send: ['attack', 244, 245, False, 21]
+INFO:root:send: ['attack', 245, 246, False, 22]
+INFO:root:send: ['attack', 243, 224, False, 23]
+INFO:root:send: ['attack', 224, 205, False, 24]
+INFO:root:send: ['attack', 232, 231, False, 25]
+2 (-1, -1)
+(4, 12)
+INFO:root:send: ['attack', 233, 214, False, 26]
+INFO:root:send: ['attack', 234, 215, False, 27]
+INFO:root:send: ['attack', 235, 216, False, 28]
+INFO:root:send: ['attack', 236, 217, False, 29]
+INFO:root:send: ['attack', 237, 218, False, 30]
+INFO:root:send: ['attack', 238, 219, False, 31]
+INFO:root:send: ['attack', 239, 220, False, 32]
+INFO:root:send: ['attack', 240, 221, False, 33]
+INFO:root:send: ['attack', 224, 223, False, 34]
+INFO:root:send: ['attack', 205, 204, False, 35]
+INFO:root:send: ['attack', 281, 280, False, 36]
+INFO:root:send: ['attack', 300, 299, False, 37]
+INFO:root:send: ['attack', 262, 263, False, 38]
+INFO:root:send: ['attack', 319, 318, False, 39]
+INFO:root:send: ['attack', 245, 264, False, 40]
+INFO:root:send: ['attack', 356, 355, False, 41]
+INFO:root:send: ['attack', 338, 337, False, 42]
+INFO:root:send: ['attack', 246, 227, False, 43]
+INFO:root:send: ['attack', 357, 376, False, 44]
+4 (-1, -1)
+INFO:root:send: ['attack', 244, 243, False, 45]
+INFO:root:send: ['attack', 243, 242, False, 46]
+INFO:root:send: ['attack', 242, 241, False, 47]
+INFO:root:send: ['attack', 241, 240, False, 48]
+INFO:root:send: ['attack', 240, 239, False, 49]
+INFO:root:send: ['attack', 239, 238, False, 50]
+INFO:root:send: ['attack', 238, 237, False, 51]
+INFO:root:send: ['attack', 237, 236, False, 52]
+INFO:root:send: ['attack', 236, 235, False, 53]
+INFO:root:send: ['attack', 235, 234, False, 54]
+INFO:root:send: ['attack', 234, 233, False, 55]
+INFO:root:send: ['attack', 233, 214, False, 56]
+INFO:root:send: ['attack', 214, 213, False, 57]
+INFO:root:send: ['attack', 213, 194, False, 58]
+INFO:root:send: ['attack', 194, 193, False, 59]
+INFO:root:send: ['attack', 193, 174, False, 60]
+INFO:root:send: ['attack', 174, 155, False, 61]
+INFO:root:send: ['attack', 155, 136, False, 62]
+INFO:root:send: ['attack', 136, 117, False, 63]
+INFO:root:send: ['attack', 117, 98, False, 64]
+INFO:root:send: ['attack', 117, 98, False, 65]
+8 (-1, -1)
+(-1, -1)
+8 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 117, 98, False, 66]
+8 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 117, 98, False, 67]
+INFO:root:send: ['attack', 117, 98, False, 68]
+8 (-1, -1)
+(-1, -1)
+8 (-1, -1)
+INFO:root:send: ['attack', 243, 242, False, 69]
+INFO:root:send: ['attack', 242, 241, False, 70]
+INFO:root:send: ['attack', 241, 240, False, 71]
+INFO:root:send: ['attack', 240, 239, False, 72]
+INFO:root:send: ['attack', 239, 238, False, 73]
+INFO:root:send: ['attack', 238, 237, False, 74]
+INFO:root:send: ['attack', 237, 236, False, 75]
+INFO:root:send: ['attack', 236, 235, False, 76]
+INFO:root:send: ['attack', 235, 234, False, 77]
+INFO:root:send: ['attack', 234, 233, False, 78]
+INFO:root:send: ['attack', 233, 214, False, 79]
+INFO:root:send: ['attack', 214, 213, False, 80]
+INFO:root:send: ['attack', 213, 194, False, 81]
+INFO:root:send: ['attack', 194, 193, False, 82]
+INFO:root:send: ['attack', 193, 174, False, 83]
+INFO:root:send: ['attack', 174, 155, False, 84]
+INFO:root:send: ['attack', 155, 156, False, 85]
+INFO:root:send: ['attack', 156, 137, False, 86]
+INFO:root:send: ['attack', 137, 118, False, 87]
+INFO:root:send: ['attack', 118, 119, False, 88]
+INFO:root:send: ['attack', 119, 100, False, 89]
+INFO:root:send: ['attack', 100, 81, False, 90]
+INFO:root:send: ['attack', 81, 80, False, 91]
+INFO:root:send: ['attack', 80, 61, False, 92]
+INFO:root:send: ['attack', 61, 42, False, 93]
+INFO:root:send: ['attack', 42, 41, False, 94]
+INFO:root:send: ['attack', 41, 40, False, 95]
+INFO:root:send: ['attack', 40, 39, False, 96]
+INFO:root:send: ['attack', 39, 38, False, 97]
+INFO:root:send: ['attack', 38, 19, False, 98]
+INFO:root:send: ['attack', 19, 0, False, 99]
+17 (-1, -1)
+INFO:root:send: ['attack', 221, 220, False, 100]
+INFO:root:send: ['attack', 220, 219, False, 101]
+INFO:root:send: ['attack', 204, 223, False, 102]
+INFO:root:send: ['attack', 223, 242, False, 103]
+INFO:root:send: ['attack', 205, 224, False, 104]
+INFO:root:send: ['attack', 224, 243, False, 105]
+INFO:root:send: ['attack', 227, 246, False, 106]
+INFO:root:send: ['attack', 246, 245, False, 107]
+INFO:root:send: ['attack', 245, 244, False, 108]
+INFO:root:send: ['attack', 244, 243, False, 109]
+INFO:root:send: ['attack', 243, 242, False, 110]
+INFO:root:send: ['attack', 242, 241, False, 111]
+INFO:root:send: ['attack', 241, 240, False, 112]
+INFO:root:send: ['attack', 240, 239, False, 113]
+INFO:root:send: ['attack', 239, 238, False, 114]
+INFO:root:send: ['attack', 238, 219, False, 115]
+INFO:root:send: ['attack', 219, 218, False, 116]
+INFO:root:send: ['attack', 218, 217, False, 117]
+INFO:root:send: ['attack', 217, 216, False, 118]
+INFO:root:send: ['attack', 216, 215, False, 119]
+INFO:root:send: ['attack', 215, 214, False, 120]
+INFO:root:send: ['attack', 214, 195, False, 121]
+INFO:root:send: ['attack', 195, 194, False, 122]
+INFO:root:send: ['attack', 194, 175, False, 123]
+INFO:root:send: ['attack', 175, 174, False, 124]
+INFO:root:send: ['attack', 174, 155, False, 125]
+INFO:root:send: ['attack', 155, 154, False, 126]
+INFO:root:send: ['attack', 154, 153, False, 127]
+INFO:root:send: ['attack', 153, 152, False, 128]
+22 (0, 7)
+INFO:root:send: ['attack', 243, 242, False, 129]
+INFO:root:send: ['attack', 242, 223, False, 130]
+INFO:root:send: ['attack', 223, 204, False, 131]
+INFO:root:send: ['attack', 204, 185, False, 132]
+INFO:root:send: ['attack', 185, 184, False, 133]
+23 (0, 7)
+INFO:root:send: ['attack', 184, 183, False, 134]
+INFO:root:send: ['attack', 183, 202, False, 135]
+INFO:root:send: ['attack', 264, 263, False, 136]
+INFO:root:send: ['attack', 263, 262, False, 137]
+INFO:root:send: ['attack', 262, 243, False, 138]
+INFO:root:send: ['attack', 243, 242, False, 139]
+INFO:root:send: ['attack', 242, 241, False, 140]
+INFO:root:send: ['attack', 241, 240, False, 141]
+INFO:root:send: ['attack', 240, 221, False, 142]
+INFO:root:send: ['attack', 221, 202, False, 143]
+21 (0, 7)
+INFO:root:send: ['attack', 205, 224, False, 144]
+INFO:root:send: ['attack', 224, 243, False, 145]
+21 (0, 7)
+(0, 7)
+INFO:root:send: ['attack', 152, 171, False, 146]
+INFO:root:send: ['attack', 38, 57, False, 147]
+INFO:root:send: ['attack', 193, 192, False, 148]
+INFO:root:send: ['attack', 117, 98, False, 149]
+INFO:root:send: ['attack', 19, 20, False, 150]
+INFO:root:send: ['attack', 0, 1, False, 151]
+INFO:root:send: ['attack', 40, 21, False, 152]
+INFO:root:send: ['attack', 194, 213, False, 153]
+INFO:root:send: ['attack', 41, 22, False, 154]
+INFO:root:send: ['attack', 231, 232, False, 155]
+INFO:root:send: ['attack', 61, 62, False, 156]
+INFO:root:send: ['attack', 42, 23, False, 157]
+INFO:root:send: ['attack', 214, 233, False, 158]
+INFO:root:send: ['attack', 215, 234, False, 159]
+INFO:root:send: ['attack', 216, 235, False, 160]
+INFO:root:send: ['attack', 217, 236, False, 161]
+INFO:root:send: ['attack', 219, 218, False, 162]
+INFO:root:send: ['attack', 238, 237, False, 163]
+INFO:root:send: ['attack', 239, 258, False, 164]
+24 (0, 7)
+INFO:root:send: ['attack', 243, 242, False, 165]
+INFO:root:send: ['attack', 242, 241, False, 166]
+23 (0, 7)
+INFO:root:send: ['attack', 241, 240, False, 167]
+22 (0, 7)
+INFO:root:send: ['attack', 240, 221, False, 168]
+21 (0, 7)
+INFO:root:send: ['attack', 221, 202, False, 169]
+INFO:root:send: ['attack', 245, 244, False, 170]
+20 (0, 7)
+INFO:root:send: ['attack', 244, 243, False, 171]
+20 (0, 7)
+INFO:root:send: ['attack', 100, 119, False, 172]
+INFO:root:send: ['attack', 119, 118, False, 173]
+INFO:root:send: ['attack', 118, 137, False, 174]
+INFO:root:send: ['attack', 137, 136, False, 175]
+INFO:root:send: ['attack', 136, 155, False, 176]
+INFO:root:send: ['attack', 202, 221, False, 177]
+INFO:root:send: ['attack', 221, 220, False, 178]
+INFO:root:send: ['attack', 355, 356, False, 179]
+INFO:root:send: ['attack', 356, 337, False, 180]
+INFO:root:send: ['attack', 337, 318, False, 181]
+INFO:root:send: ['attack', 318, 299, False, 182]
+INFO:root:send: ['attack', 299, 280, False, 183]
+INFO:root:send: ['attack', 280, 281, False, 184]
+INFO:root:send: ['attack', 376, 357, False, 185]
+INFO:root:send: ['attack', 357, 338, False, 186]
+INFO:root:send: ['attack', 338, 319, False, 187]
+INFO:root:send: ['attack', 319, 300, False, 188]
+INFO:root:send: ['attack', 300, 281, False, 189]
+INFO:root:send: ['attack', 281, 262, False, 190]
+INFO:root:send: ['attack', 262, 243, False, 191]
+INFO:root:send: ['attack', 243, 242, False, 192]
+INFO:root:send: ['attack', 242, 241, False, 193]
+INFO:root:send: ['attack', 241, 240, False, 194]
+INFO:root:send: ['attack', 240, 239, False, 195]
+INFO:root:send: ['attack', 239, 220, False, 196]
+INFO:root:send: ['attack', 220, 219, False, 197]
+INFO:root:send: ['attack', 219, 218, False, 198]
+INFO:root:send: ['attack', 218, 217, False, 199]
+INFO:root:send: ['attack', 217, 216, False, 200]
+INFO:root:send: ['attack', 216, 215, False, 201]
+INFO:root:send: ['attack', 215, 214, False, 202]
+INFO:root:send: ['attack', 214, 195, False, 203]
+INFO:root:send: ['attack', 195, 194, False, 204]
+INFO:root:send: ['attack', 194, 175, False, 205]
+INFO:root:send: ['attack', 175, 156, False, 206]
+INFO:root:send: ['attack', 156, 155, False, 207]
+INFO:root:send: ['attack', 155, 154, False, 208]
+INFO:root:send: ['attack', 154, 153, False, 209]
+INFO:root:send: ['attack', 153, 152, False, 210]
+INFO:root:send: ['attack', 152, 133, False, 211]
+INFO:root:!!!! Game Complete. Result = True !!!!
+INFO:root:Moves: 237, Realized: 232
+INFO:root:exiting
+INFO:root:send: ['surrender']
+INFO:root:send: ['cancel']
+INFO:root:send: ['leave_game']
+INFO:root:send: ['attack', 190, 191, False, 212]
+0 (0, 7)
+(0, 7)
+INFO:root:exiting
+INFO:root:exiting
+INFO:root:
+
+
+
+INFO:root:send: ['set_username', 'sdlfkjsdlfk', '[Bot] dsgfhj']
+INFO:root:Joining games
+INFO:root:send: ['join_private', '40mt', 'sdlfkjsdlfk']
+INFO:root:error_set_username: ['This username is already taken.']
+INFO:root:Queue 0/2 {13: ['tem_shett_'], 1: ['[Bot] aaaadsfakljn'], 2: [None]}
+INFO:root:Message: [Bot] dsgfhj joined the custom lobby.
+INFO:root:Queue 0/2 {13: ['tem_shett_'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/2 {13: ['tem_shett_'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/2 {13: ['tem_shett_'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/3 {13: ['tem_shett_'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 3: ['hotdog69']}
+INFO:root:Message: hotdog69 joined the custom lobby.
+INFO:root:Queue 1/3 {13: ['tem_shett_'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 3: ['hotdog69']}
+INFO:root:notify: ['hotdog69 joined the custom game', 'There are now 4 players in the lobby.']
+INFO:root:Queue 0/2 {13: ['tem_shett_', 'hotdog69'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:Message: hotdog69 joined the spectators.
+INFO:root:Queue 1/2 {13: ['tem_shett_', 'hotdog69'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/2 {13: ['tem_shett_', 'hotdog69'], 1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:pre_game_start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:Joined Game: http://bot.generals.io/replays/v5ERZpr2t - ['[Bot] aaaadsfakljn', '[Bot] dsgfhj']
+INFO:root:Message:  Chat is being recorded.
+(25, 63, [((4, 2), (5, 2), 24), ((5, 2), (5, 3), 0), ((5, 3), (5, 4), 0), ((5, 4), (5, 5), 0), ((5, 5), (5, 6), 0), ((5, 6), (5, 7), 0), ((5, 7), (5, 8), 0), ((5, 8), (5, 9), 0), ((5, 9), (5, 10), 0), ((5, 10), (5, 11), 0), ((5, 11), (5, 12), 0), ((5, 12), (5, 13), 0), ((4, 2), (5, 2), 36), ((5, 2), (5, 3), 0), ((5, 3), (6, 3), 0), ((6, 3), (7, 3), 0), ((7, 3), (8, 3), 0), ((8, 3), (9, 3), 0), ((9, 3), (10, 3), 0), ((10, 3), (11, 3), 0), ((4, 2), (3, 2), 44), ((3, 2), (3, 1), 0), ((3, 1), (2, 1), 0), ((2, 1), (1, 1), 0), ((4, 2), (4, 1), 48), ((4, 1), (4, 0), 0)])
+INFO:root:send: ['attack', 46, 47, False, 1]
+INFO:root:send: ['attack', 47, 68, False, 2]
+INFO:root:send: ['attack', 68, 89, False, 3]
+INFO:root:send: ['attack', 89, 110, False, 4]
+INFO:root:send: ['attack', 110, 131, False, 5]
+INFO:root:send: ['attack', 131, 152, False, 6]
+INFO:root:send: ['attack', 152, 173, False, 7]
+INFO:root:send: ['attack', 173, 194, False, 8]
+INFO:root:send: ['attack', 194, 215, False, 9]
+INFO:root:send: ['attack', 215, 236, False, 10]
+INFO:root:send: ['attack', 236, 257, False, 11]
+INFO:root:send: ['attack', 257, 278, False, 12]
+INFO:root:send: ['attack', 46, 47, False, 13]
+INFO:root:send: ['attack', 47, 68, False, 14]
+INFO:root:send: ['attack', 68, 69, False, 15]
+INFO:root:send: ['attack', 69, 70, False, 16]
+INFO:root:send: ['attack', 70, 71, False, 17]
+INFO:root:send: ['attack', 71, 72, False, 18]
+INFO:root:send: ['attack', 72, 73, False, 19]
+INFO:root:send: ['attack', 73, 74, False, 20]
+INFO:root:send: ['attack', 46, 45, False, 21]
+INFO:root:send: ['attack', 45, 24, False, 22]
+INFO:root:send: ['attack', 24, 23, False, 23]
+INFO:root:send: ['attack', 23, 22, False, 24]
+INFO:root:send: ['attack', 46, 25, False, 25]
+INFO:root:send: ['attack', 25, 4, False, 26]
+0 (-1, -1)
+(10, 9)
+INFO:root:send: ['attack', 194, 195, False, 27]
+INFO:root:send: ['attack', 173, 174, False, 28]
+INFO:root:send: ['attack', 73, 94, False, 29]
+INFO:root:send: ['attack', 152, 153, False, 30]
+INFO:root:send: ['attack', 72, 93, False, 31]
+INFO:root:send: ['attack', 74, 95, False, 32]
+INFO:root:send: ['attack', 215, 214, False, 33]
+INFO:root:send: ['attack', 131, 132, False, 34]
+INFO:root:send: ['attack', 257, 258, False, 35]
+INFO:root:send: ['attack', 71, 92, False, 36]
+INFO:root:send: ['attack', 236, 235, False, 37]
+INFO:root:send: ['attack', 110, 111, False, 38]
+INFO:root:send: ['attack', 278, 279, False, 39]
+INFO:root:send: ['attack', 70, 91, False, 40]
+INFO:root:send: ['attack', 69, 90, False, 41]
+INFO:root:send: ['attack', 89, 88, False, 42]
+INFO:root:send: ['attack', 47, 48, False, 43]
+INFO:root:send: ['attack', 45, 66, False, 44]
+INFO:root:send: ['attack', 23, 44, False, 45]
+INFO:root:send: ['attack', 4, 5, False, 46]
+0 (-1, -1)
+(10, 9)
+INFO:root:send: ['attack', 24, 3, False, 47]
+INFO:root:send: ['attack', 22, 21, False, 48]
+1 (-1, -1)
+(12, 2)
+INFO:root:send: ['attack', 22, 21, False, 49]
+2 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 46, 47, False, 50]
+INFO:root:send: ['attack', 47, 68, False, 51]
+INFO:root:send: ['attack', 68, 69, False, 52]
+INFO:root:send: ['attack', 69, 70, False, 53]
+INFO:root:send: ['attack', 70, 71, False, 54]
+INFO:root:send: ['attack', 71, 72, False, 55]
+INFO:root:send: ['attack', 72, 73, False, 56]
+INFO:root:send: ['attack', 73, 74, False, 57]
+INFO:root:send: ['attack', 74, 75, False, 58]
+INFO:root:send: ['attack', 75, 76, False, 59]
+INFO:root:send: ['attack', 76, 77, False, 60]
+INFO:root:send: ['attack', 77, 78, False, 61]
+INFO:root:send: ['attack', 78, 79, False, 62]
+INFO:root:send: ['attack', 79, 58, False, 63]
+INFO:root:send: ['attack', 58, 59, False, 64]
+INFO:root:send: ['attack', 59, 60, False, 65]
+INFO:root:send: ['attack', 60, 61, False, 66]
+INFO:root:send: ['attack', 61, 62, False, 67]
+INFO:root:send: ['attack', 62, 41, False, 68]
+INFO:root:send: ['attack', 41, 20, False, 69]
+9 (-1, -1)
+INFO:root:send: ['attack', 46, 47, False, 70]
+INFO:root:send: ['attack', 47, 48, False, 71]
+8 (-1, -1)
+INFO:root:send: ['attack', 48, 49, False, 72]
+7 (-1, -1)
+INFO:root:send: ['attack', 49, 50, False, 73]
+6 (-1, -1)
+INFO:root:send: ['attack', 46, 47, False, 74]
+INFO:root:send: ['attack', 47, 48, False, 75]
+INFO:root:send: ['attack', 48, 49, False, 76]
+INFO:root:send: ['attack', 49, 50, False, 77]
+INFO:root:send: ['attack', 50, 51, False, 78]
+6 (-1, -1)
+INFO:root:send: ['attack', 5, 4, False, 79]
+INFO:root:send: ['attack', 4, 25, False, 80]
+INFO:root:send: ['attack', 25, 46, False, 81]
+INFO:root:send: ['attack', 3, 24, False, 82]
+INFO:root:send: ['attack', 24, 45, False, 83]
+INFO:root:send: ['attack', 21, 22, False, 84]
+INFO:root:send: ['attack', 22, 23, False, 85]
+INFO:root:send: ['attack', 23, 44, False, 86]
+INFO:root:send: ['attack', 44, 45, False, 87]
+INFO:root:send: ['attack', 66, 45, False, 88]
+INFO:root:send: ['attack', 45, 46, False, 89]
+INFO:root:send: ['attack', 71, 70, False, 90]
+INFO:root:send: ['attack', 70, 69, False, 91]
+INFO:root:send: ['attack', 69, 68, False, 92]
+INFO:root:send: ['attack', 68, 47, False, 93]
+INFO:root:send: ['attack', 47, 46, False, 94]
+10 (-1, -1)
+INFO:root:send: ['attack', 46, 47, False, 95]
+INFO:root:send: ['attack', 47, 48, False, 96]
+9 (-1, -1)
+INFO:root:send: ['attack', 48, 49, False, 97]
+8 (-1, -1)
+INFO:root:send: ['attack', 49, 50, False, 98]
+7 (-1, -1)
+INFO:root:send: ['attack', 50, 51, False, 99]
+6 (-1, -1)
+INFO:root:send: ['attack', 88, 89, False, 100]
+INFO:root:send: ['attack', 89, 68, False, 101]
+INFO:root:send: ['attack', 68, 47, False, 102]
+INFO:root:send: ['attack', 47, 46, False, 103]
+6 (-1, -1)
+INFO:root:send: ['attack', 75, 74, False, 104]
+INFO:root:send: ['attack', 74, 95, False, 105]
+INFO:root:send: ['attack', 73, 94, False, 106]
+INFO:root:send: ['attack', 51, 72, False, 107]
+INFO:root:send: ['attack', 72, 93, False, 108]
+INFO:root:send: ['attack', 46, 47, False, 109]
+INFO:root:send: ['attack', 47, 68, False, 110]
+INFO:root:send: ['attack', 68, 89, False, 111]
+INFO:root:send: ['attack', 89, 90, False, 112]
+INFO:root:send: ['attack', 194, 173, False, 113]
+INFO:root:send: ['attack', 173, 152, False, 114]
+INFO:root:send: ['attack', 152, 131, False, 115]
+INFO:root:send: ['attack', 131, 110, False, 116]
+INFO:root:send: ['attack', 110, 111, False, 117]
+INFO:root:send: ['attack', 111, 90, False, 118]
+INFO:root:send: ['attack', 90, 91, False, 119]
+INFO:root:send: ['attack', 91, 92, False, 120]
+INFO:root:send: ['attack', 92, 93, False, 121]
+INFO:root:send: ['attack', 93, 94, False, 122]
+INFO:root:send: ['attack', 94, 95, False, 123]
+INFO:root:send: ['attack', 95, 74, False, 124]
+INFO:root:send: ['attack', 74, 75, False, 125]
+INFO:root:send: ['attack', 75, 76, False, 126]
+INFO:root:send: ['attack', 76, 97, False, 127]
+INFO:root:send: ['attack', 97, 98, False, 128]
+INFO:root:send: ['attack', 98, 99, False, 129]
+INFO:root:send: ['attack', 99, 100, False, 130]
+INFO:root:send: ['attack', 100, 101, False, 131]
+INFO:root:send: ['attack', 101, 122, False, 132]
+INFO:root:send: ['attack', 122, 143, False, 133]
+INFO:root:send: ['attack', 143, 164, False, 134]
+INFO:root:send: ['attack', 164, 185, False, 135]
+INFO:root:send: ['attack', 185, 186, False, 136]
+INFO:root:send: ['attack', 186, 187, False, 137]
+INFO:root:send: ['attack', 187, 188, False, 138]
+6 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 22, 1, False, 139]
+INFO:root:send: ['attack', 21, 42, False, 140]
+INFO:root:send: ['attack', 3, 2, False, 141]
+INFO:root:send: ['attack', 5, 6, False, 142]
+INFO:root:send: ['attack', 49, 28, False, 143]
+INFO:root:send: ['attack', 110, 109, False, 144]
+INFO:root:send: ['attack', 50, 29, False, 145]
+INFO:root:send: ['attack', 131, 130, False, 146]
+INFO:root:send: ['attack', 51, 30, False, 147]
+INFO:root:send: ['attack', 152, 151, False, 148]
+INFO:root:send: ['attack', 173, 172, False, 149]
+INFO:root:send: ['attack', 111, 112, False, 150]
+INFO:root:send: ['attack', 214, 213, False, 151]
+INFO:root:send: ['attack', 194, 193, False, 152]
+INFO:root:send: ['attack', 92, 113, False, 153]
+INFO:root:send: ['attack', 235, 234, False, 154]
+INFO:root:send: ['attack', 174, 175, False, 155]
+INFO:root:send: ['attack', 257, 256, False, 156]
+INFO:root:send: ['attack', 278, 277, False, 157]
+INFO:root:send: ['attack', 58, 37, False, 158]
+10 (-1, -1)
+INFO:root:send: ['attack', 4, 25, False, 159]
+INFO:root:send: ['attack', 25, 46, False, 160]
+INFO:root:send: ['attack', 24, 45, False, 161]
+INFO:root:send: ['attack', 23, 44, False, 162]
+INFO:root:!!!! Game Complete. Result = False !!!!
+INFO:root:Moves: 185, Realized: 181
+INFO:root:exiting
+INFO:root:send: ['surrender']
+INFO:root:send: ['attack', 44, 45, False, 163]
+INFO:root:send: ['cancel']
+INFO:root:send: ['leave_game']
+INFO:root:exiting
+INFO:root:exiting
+INFO:root:
+
+
+
+INFO:root:send: ['set_username', 'sdlfkjsdlfk', '[Bot] dsgfhj']
+INFO:root:Joining games
+INFO:root:send: ['join_private', '40mt', 'sdlfkjsdlfk']
+INFO:root:error_set_username: ['This username is already taken.']
+INFO:root:Queue 0/2 {1: ['[Bot] aaaadsfakljn'], 2: [None]}
+INFO:root:Message: [Bot] dsgfhj joined the custom lobby.
+INFO:root:Queue 0/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 1/3 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 3: ['hotdog69']}
+INFO:root:Message: hotdog69 joined the custom lobby.
+INFO:root:Queue 1/3 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 3: ['hotdog69']}
+INFO:root:notify: ['hotdog69 joined the custom game', 'There are now 3 players in the lobby.']
+INFO:root:Queue 0/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69']}
+INFO:root:Message: hotdog69 joined the spectators.
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69']}
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69']}
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69']}
+INFO:root:Queue 1/3 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69'], 3: ['tem_shett_']}
+INFO:root:Message: tem_shett_ joined the custom lobby.
+INFO:root:Queue 1/3 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69'], 3: ['tem_shett_']}
+INFO:root:notify: ['tem_shett_ joined the custom game', 'There are now 4 players in the lobby.']
+INFO:root:Queue 0/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:Message: tem_shett_ joined the spectators.
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:From tem_shett_: go
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:pre_game_start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:Joined Game: http://bot.generals.io/replays/ZdC4ZCdtv - ['[Bot] aaaadsfakljn', '[Bot] dsgfhj']
+INFO:root:Message:  Chat is being recorded.
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+(25, 48, [((5, 15), (6, 15), 20), ((6, 15), (6, 14), 0), ((6, 14), (6, 13), 0), ((6, 13), (6, 12), 0), ((6, 12), (6, 11), 0), ((6, 11), (5, 11), 0), ((5, 11), (4, 11), 0), ((4, 11), (3, 11), 0), ((3, 11), (2, 11), 0), ((2, 11), (2, 12), 0), ((5, 15), (6, 15), 32), ((6, 15), (6, 14), 0), ((6, 14), (6, 13), 0), ((6, 13), (7, 13), 0), ((7, 13), (8, 13), 0), ((8, 13), (9, 13), 0), ((9, 13), (9, 12), 0), ((9, 12), (9, 11), 0), ((9, 11), (9, 10), 0), ((5, 15), (6, 15), 41), ((6, 15), (7, 15), 0), ((7, 15), (8, 15), 0), ((8, 15), (9, 15), 0), ((9, 15), (10, 15), 0), ((5, 15), (5, 14), 46), ((5, 14), (5, 13), 0), ((5, 13), (4, 13), 0), ((5, 15), (5, 16), 49)])
+INFO:root:send: ['attack', 290, 291, False, 1]
+INFO:root:send: ['attack', 291, 272, False, 2]
+INFO:root:send: ['attack', 272, 253, False, 3]
+INFO:root:send: ['attack', 253, 234, False, 4]
+INFO:root:send: ['attack', 234, 215, False, 5]
+INFO:root:send: ['attack', 215, 214, False, 6]
+INFO:root:send: ['attack', 214, 213, False, 7]
+INFO:root:send: ['attack', 213, 212, False, 8]
+INFO:root:send: ['attack', 212, 211, False, 9]
+INFO:root:send: ['attack', 211, 230, False, 10]
+INFO:root:send: ['attack', 290, 291, False, 11]
+INFO:root:send: ['attack', 291, 272, False, 12]
+INFO:root:send: ['attack', 272, 253, False, 13]
+INFO:root:send: ['attack', 253, 254, False, 14]
+INFO:root:send: ['attack', 254, 255, False, 15]
+INFO:root:send: ['attack', 255, 256, False, 16]
+INFO:root:send: ['attack', 256, 237, False, 17]
+INFO:root:send: ['attack', 237, 218, False, 18]
+INFO:root:send: ['attack', 218, 199, False, 19]
+INFO:root:send: ['attack', 290, 291, False, 20]
+INFO:root:send: ['attack', 291, 292, False, 21]
+INFO:root:send: ['attack', 292, 293, False, 22]
+INFO:root:send: ['attack', 293, 294, False, 23]
+INFO:root:send: ['attack', 294, 295, False, 24]
+INFO:root:send: ['attack', 290, 271, False, 25]
+INFO:root:send: ['attack', 271, 252, False, 26]
+INFO:root:send: ['attack', 252, 251, False, 27]
+INFO:root:send: ['attack', 290, 309, False, 28]
+0 (-1, -1)
+(9, 9)
+INFO:root:send: ['attack', 199, 198, False, 29]
+INFO:root:send: ['attack', 218, 217, False, 30]
+INFO:root:send: ['attack', 215, 196, False, 31]
+INFO:root:send: ['attack', 237, 238, False, 32]
+INFO:root:send: ['attack', 234, 235, False, 33]
+INFO:root:send: ['attack', 213, 194, False, 34]
+INFO:root:send: ['attack', 255, 274, False, 35]
+INFO:root:send: ['attack', 295, 276, False, 36]
+INFO:root:send: ['attack', 212, 193, False, 37]
+INFO:root:send: ['attack', 252, 233, False, 38]
+INFO:root:send: ['attack', 211, 192, False, 39]
+INFO:root:send: ['attack', 293, 312, False, 40]
+INFO:root:send: ['attack', 230, 231, False, 41]
+INFO:root:send: ['attack', 292, 311, False, 42]
+INFO:root:send: ['attack', 251, 250, False, 43]
+INFO:root:send: ['attack', 271, 270, False, 44]
+INFO:root:send: ['attack', 309, 310, False, 45]
+0 (-1, -1)
+(9, 9)
+INFO:root:send: ['attack', 290, 291, False, 46]
+INFO:root:send: ['attack', 291, 272, False, 47]
+INFO:root:send: ['attack', 272, 253, False, 48]
+INFO:root:send: ['attack', 253, 254, False, 49]
+INFO:root:send: ['attack', 254, 255, False, 50]
+INFO:root:send: ['attack', 255, 256, False, 51]
+INFO:root:send: ['attack', 256, 237, False, 52]
+INFO:root:send: ['attack', 237, 218, False, 53]
+INFO:root:send: ['attack', 218, 199, False, 54]
+4 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 199, 200, False, 55]
+4 (-1, -1)
+INFO:root:send: ['attack', 200, 199, False, 56]
+INFO:root:send: ['attack', 199, 218, False, 57]
+INFO:root:send: ['attack', 218, 237, False, 58]
+INFO:root:send: ['attack', 237, 256, False, 59]
+INFO:root:send: ['attack', 256, 255, False, 60]
+INFO:root:send: ['attack', 255, 254, False, 61]
+INFO:root:send: ['attack', 254, 253, False, 62]
+INFO:root:send: ['attack', 253, 252, False, 63]
+INFO:root:send: ['attack', 290, 271, False, 64]
+INFO:root:send: ['attack', 271, 252, False, 65]
+INFO:root:send: ['attack', 252, 233, False, 66]
+INFO:root:send: ['attack', 233, 214, False, 67]
+INFO:root:send: ['attack', 214, 213, False, 68]
+INFO:root:send: ['attack', 213, 212, False, 69]
+INFO:root:send: ['attack', 212, 211, False, 70]
+INFO:root:send: ['attack', 211, 192, False, 71]
+INFO:root:send: ['attack', 192, 173, False, 72]
+INFO:root:send: ['attack', 173, 154, False, 73]
+INFO:root:send: ['attack', 154, 135, False, 74]
+INFO:root:send: ['attack', 135, 116, False, 75]
+INFO:root:send: ['attack', 116, 117, False, 76]
+INFO:root:send: ['attack', 117, 118, False, 77]
+INFO:root:send: ['attack', 118, 119, False, 78]
+INFO:root:send: ['attack', 119, 100, False, 79]
+INFO:root:send: ['attack', 100, 81, False, 80]
+INFO:root:send: ['attack', 81, 62, False, 81]
+INFO:root:send: ['attack', 62, 61, False, 82]
+INFO:root:send: ['attack', 61, 60, False, 83]
+INFO:root:send: ['attack', 60, 59, False, 84]
+INFO:root:send: ['attack', 59, 40, False, 85]
+INFO:root:send: ['attack', 40, 39, False, 86]
+INFO:root:send: ['attack', 39, 20, False, 87]
+8 (-1, -1)
+INFO:root:send: ['attack', 118, 117, False, 88]
+INFO:root:send: ['attack', 117, 116, False, 89]
+INFO:root:send: ['attack', 116, 135, False, 90]
+INFO:root:send: ['attack', 135, 154, False, 91]
+INFO:root:send: ['attack', 194, 193, False, 92]
+INFO:root:send: ['attack', 193, 192, False, 93]
+INFO:root:send: ['attack', 294, 293, False, 94]
+INFO:root:send: ['attack', 293, 292, False, 95]
+INFO:root:send: ['attack', 292, 291, False, 96]
+INFO:root:send: ['attack', 291, 290, False, 97]
+INFO:root:send: ['attack', 290, 271, False, 98]
+INFO:root:send: ['attack', 271, 270, False, 99]
+INFO:root:send: ['attack', 270, 251, False, 100]
+INFO:root:send: ['attack', 251, 250, False, 101]
+INFO:root:send: ['attack', 250, 231, False, 102]
+INFO:root:send: ['attack', 231, 230, False, 103]
+INFO:root:send: ['attack', 230, 211, False, 104]
+INFO:root:send: ['attack', 211, 192, False, 105]
+INFO:root:send: ['attack', 192, 173, False, 106]
+INFO:root:send: ['attack', 173, 154, False, 107]
+INFO:root:send: ['attack', 154, 155, False, 108]
+INFO:root:send: ['attack', 155, 156, False, 109]
+INFO:root:send: ['attack', 156, 137, False, 110]
+INFO:root:send: ['attack', 137, 138, False, 111]
+INFO:root:send: ['attack', 138, 119, False, 112]
+INFO:root:send: ['attack', 119, 100, False, 113]
+INFO:root:send: ['attack', 100, 101, False, 114]
+INFO:root:send: ['attack', 101, 82, False, 115]
+INFO:root:send: ['attack', 82, 63, False, 116]
+INFO:root:send: ['attack', 63, 44, False, 117]
+INFO:root:send: ['attack', 44, 25, False, 118]
+INFO:root:send: ['attack', 25, 24, False, 119]
+INFO:root:send: ['attack', 24, 23, False, 120]
+INFO:root:send: ['attack', 23, 4, False, 121]
+18 (-1, -1)
+INFO:root:send: ['attack', 196, 215, False, 122]
+INFO:root:send: ['attack', 215, 214, False, 123]
+INFO:root:send: ['attack', 235, 234, False, 124]
+INFO:root:send: ['attack', 234, 233, False, 125]
+INFO:root:send: ['attack', 199, 218, False, 126]
+INFO:root:send: ['attack', 218, 237, False, 127]
+INFO:root:send: ['attack', 237, 256, False, 128]
+INFO:root:send: ['attack', 256, 255, False, 129]
+INFO:root:send: ['attack', 255, 254, False, 130]
+INFO:root:send: ['attack', 254, 253, False, 131]
+INFO:root:send: ['attack', 253, 252, False, 132]
+INFO:root:send: ['attack', 290, 271, False, 133]
+INFO:root:send: ['attack', 271, 252, False, 134]
+INFO:root:send: ['attack', 252, 233, False, 135]
+INFO:root:send: ['attack', 233, 214, False, 136]
+INFO:root:send: ['attack', 214, 213, False, 137]
+INFO:root:send: ['attack', 213, 212, False, 138]
+INFO:root:send: ['attack', 212, 211, False, 139]
+INFO:root:send: ['attack', 211, 192, False, 140]
+INFO:root:send: ['attack', 192, 173, False, 141]
+INFO:root:send: ['attack', 173, 192, False, 142]
+INFO:root:send: ['attack', 192, 193, False, 143]
+INFO:root:send: ['attack', 193, 194, False, 144]
+INFO:root:send: ['attack', 194, 175, False, 145]
+INFO:root:send: ['attack', 175, 156, False, 146]
+INFO:root:send: ['attack', 156, 157, False, 147]
+INFO:root:send: ['attack', 157, 138, False, 148]
+INFO:root:send: ['attack', 138, 119, False, 149]
+INFO:root:send: ['attack', 119, 100, False, 150]
+INFO:root:send: ['attack', 100, 101, False, 151]
+INFO:root:send: ['attack', 101, 102, False, 152]
+INFO:root:send: ['attack', 102, 83, False, 153]
+INFO:root:send: ['attack', 83, 84, False, 154]
+16 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 39, 38, False, 155]
+INFO:root:send: ['attack', 4, 5, False, 156]
+INFO:root:send: ['attack', 23, 42, False, 157]
+INFO:root:send: ['attack', 25, 6, False, 158]
+INFO:root:send: ['attack', 196, 177, False, 159]
+INFO:root:send: ['attack', 198, 179, False, 160]
+INFO:root:send: ['attack', 218, 219, False, 161]
+INFO:root:send: ['attack', 200, 201, False, 162]
+INFO:root:send: ['attack', 311, 330, False, 163]
+INFO:root:send: ['attack', 312, 331, False, 164]
+INFO:root:send: ['attack', 295, 314, False, 165]
+25 (-1, -1)
+INFO:root:send: ['attack', 309, 290, False, 166]
+INFO:root:send: ['attack', 290, 291, False, 167]
+INFO:root:send: ['attack', 310, 291, False, 168]
+INFO:root:send: ['attack', 291, 272, False, 169]
+INFO:root:send: ['attack', 272, 253, False, 170]
+INFO:root:send: ['attack', 253, 254, False, 171]
+24 (-1, -1)
+INFO:root:send: ['attack', 254, 255, False, 172]
+23 (-1, -1)
+22 (-1, -1)
+INFO:root:send: ['attack', 251, 270, False, 173]
+INFO:root:send: ['attack', 270, 271, False, 174]
+INFO:root:send: ['attack', 271, 290, False, 175]
+22 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 179, 178, False, 176]
+INFO:root:send: ['attack', 255, 256, False, 177]
+INFO:root:send: ['attack', 201, 220, False, 178]
+INFO:root:send: ['attack', 331, 332, False, 179]
+INFO:root:send: ['attack', 314, 333, False, 180]
+22 (-1, -1)
+INFO:root:send: ['attack', 5, 24, False, 181]
+INFO:root:send: ['attack', 24, 25, False, 182]
+INFO:root:send: ['attack', 25, 44, False, 183]
+INFO:root:send: ['attack', 44, 63, False, 184]
+INFO:root:send: ['attack', 63, 82, False, 185]
+INFO:root:send: ['attack', 82, 81, False, 186]
+INFO:root:send: ['attack', 290, 271, False, 187]
+INFO:root:send: ['attack', 271, 252, False, 188]
+INFO:root:send: ['attack', 252, 233, False, 189]
+INFO:root:send: ['attack', 233, 214, False, 190]
+INFO:root:send: ['attack', 214, 213, False, 191]
+INFO:root:send: ['attack', 213, 194, False, 192]
+INFO:root:send: ['attack', 194, 175, False, 193]
+INFO:root:send: ['attack', 175, 156, False, 194]
+INFO:root:send: ['attack', 156, 137, False, 195]
+INFO:root:send: ['attack', 137, 118, False, 196]
+INFO:root:send: ['attack', 118, 119, False, 197]
+INFO:root:send: ['attack', 119, 100, False, 198]
+INFO:root:send: ['attack', 100, 81, False, 199]
+INFO:root:send: ['attack', 81, 62, False, 200]
+INFO:root:send: ['attack', 62, 63, False, 201]
+INFO:root:send: ['attack', 63, 44, False, 202]
+INFO:root:send: ['attack', 44, 25, False, 203]
+INFO:root:send: ['attack', 25, 26, False, 204]
+INFO:root:send: ['attack', 26, 27, False, 205]
+INFO:root:send: ['attack', 27, 8, False, 206]
+27 (-1, -1)
+INFO:root:send: ['attack', 290, 291, False, 207]
+27 (-1, -1)
+INFO:root:send: ['attack', 291, 272, False, 208]
+27 (-1, -1)
+INFO:root:send: ['attack', 215, 234, False, 209]
+INFO:root:send: ['attack', 234, 253, False, 210]
+28 (-1, -1)
+INFO:root:send: ['attack', 235, 254, False, 211]
+INFO:root:send: ['attack', 253, 254, False, 212]
+28 (-1, -1)
+INFO:root:send: ['attack', 254, 255, False, 213]
+INFO:root:send: ['attack', 274, 255, False, 214]
+27 (-1, -1)
+INFO:root:send: ['attack', 272, 271, False, 215]
+INFO:root:send: ['attack', 271, 290, False, 216]
+27 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 38, 19, False, 217]
+INFO:root:send: ['attack', 39, 20, False, 218]
+INFO:root:send: ['attack', 42, 61, False, 219]
+INFO:root:send: ['attack', 8, 9, False, 220]
+INFO:root:send: ['attack', 101, 82, False, 221]
+INFO:root:send: ['attack', 102, 83, False, 222]
+INFO:root:send: ['attack', 178, 159, False, 223]
+INFO:root:send: ['attack', 218, 237, False, 224]
+INFO:root:send: ['attack', 255, 256, False, 225]
+INFO:root:send: ['attack', 219, 238, False, 226]
+INFO:root:send: ['attack', 201, 202, False, 227]
+INFO:root:send: ['attack', 220, 239, False, 228]
+INFO:root:send: ['attack', 295, 296, False, 229]
+INFO:root:send: ['attack', 333, 334, False, 230]
+28 (-1, -1)
+INFO:root:send: ['attack', 309, 290, False, 231]
+INFO:root:send: ['attack', 290, 291, False, 232]
+INFO:root:send: ['attack', 291, 292, False, 233]
+INFO:root:send: ['attack', 310, 311, False, 234]
+INFO:root:send: ['attack', 330, 311, False, 235]
+INFO:root:!!!! Game Complete. Result = False !!!!
+INFO:root:Moves: 256, Realized: 250
+INFO:root:exiting
+INFO:root:send: ['surrender']
+INFO:root:send: ['cancel']
+INFO:root:send: ['leave_game']
+INFO:root:send: ['attack', 311, 292, False, 236]
+INFO:root:exiting
+INFO:root:exiting
+INFO:root:
+
+
+
+INFO:root:send: ['set_username', 'sdlfkjsdlfk', '[Bot] dsgfhj']
+INFO:root:Joining games
+INFO:root:send: ['join_private', '40mt', 'sdlfkjsdlfk']
+INFO:root:error_set_username: ['This username is already taken.']
+INFO:root:Queue 0/1 {1: [None]}
+INFO:root:Message: [Bot] dsgfhj joined the custom lobby.
+INFO:root:Queue 0/1 {1: ['[Bot] dsgfhj']}
+INFO:root:Queue 0/2 {1: ['[Bot] dsgfhj'], 2: [None]}
+INFO:root:Message: [Bot] aaaadsfakljn joined the custom lobby.
+INFO:root:Queue 0/2 {1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn']}
+INFO:root:notify: ['[Bot] aaaadsfakljn joined the custom game', 'There are now 2 players in the lobby.']
+INFO:root:Queue 0/3 {1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn'], 3: ['hotdog69']}
+INFO:root:Message: hotdog69 joined the custom lobby.
+INFO:root:Queue 0/3 {1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn'], 3: ['hotdog69']}
+INFO:root:notify: ['hotdog69 joined the custom game', 'There are now 3 players in the lobby.']
+INFO:root:Queue 0/2 {1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn'], 13: ['hotdog69']}
+INFO:root:Message: hotdog69 joined the spectators.
+INFO:root:Queue 1/2 {1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn'], 13: ['hotdog69']}
+INFO:root:Queue 1/2 {1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn'], 13: ['hotdog69']}
+INFO:root:Queue 1/2 {1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn'], 13: ['hotdog69']}
+INFO:root:Queue 1/3 {1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn'], 13: ['hotdog69'], 3: [None]}
+INFO:root:Message: tem_shett_ joined the custom lobby.
+INFO:root:Queue 1/3 {1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn'], 13: ['hotdog69'], 3: ['tem_shett_']}
+INFO:root:notify: ['tem_shett_ joined the custom game', 'There are now 4 players in the lobby.']
+INFO:root:Queue 0/2 {1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:Message: tem_shett_ joined the spectators.
+INFO:root:Queue 1/2 {1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:Queue 1/2 {1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:From tem_shett_: go
+INFO:root:Queue 1/2 {1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:pre_game_start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:Joined Game: http://bot.generals.io/replays/jxmX_SMi6 - ['[Bot] dsgfhj', '[Bot] aaaadsfakljn']
+INFO:root:Message:  Chat is being recorded.
+(25, 59, [((3, 11), (4, 11), 22), ((4, 11), (5, 11), 0), ((5, 11), (6, 11), 0), ((6, 11), (7, 11), 0), ((7, 11), (8, 11), 0), ((8, 11), (9, 11), 0), ((9, 11), (9, 12), 0), ((9, 12), (9, 13), 0), ((9, 13), (9, 14), 0), ((9, 14), (9, 15), 0), ((9, 15), (10, 15), 0), ((3, 11), (4, 11), 33), ((4, 11), (5, 11), 0), ((5, 11), (5, 10), 0), ((5, 10), (5, 9), 0), ((5, 9), (5, 8), 0), ((5, 8), (6, 8), 0), ((6, 8), (7, 8), 0), ((3, 11), (3, 12), 40), ((3, 12), (3, 13), 0), ((3, 13), (3, 14), 0), ((3, 14), (3, 15), 0), ((3, 11), (3, 12), 44), ((3, 12), (2, 12), 0), ((2, 12), (1, 12), 0), ((3, 11), (3, 10), 48), ((3, 10), (3, 9), 0)])
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['attack', 223, 224, False, 1]
+INFO:root:send: ['attack', 224, 225, False, 2]
+INFO:root:send: ['attack', 225, 226, False, 3]
+INFO:root:send: ['attack', 226, 227, False, 4]
+INFO:root:send: ['attack', 227, 228, False, 5]
+INFO:root:send: ['attack', 228, 229, False, 6]
+INFO:root:send: ['attack', 229, 249, False, 7]
+INFO:root:send: ['attack', 249, 269, False, 8]
+INFO:root:send: ['attack', 269, 289, False, 9]
+INFO:root:send: ['attack', 289, 309, False, 10]
+INFO:root:send: ['attack', 309, 310, False, 11]
+INFO:root:send: ['attack', 223, 224, False, 12]
+INFO:root:send: ['attack', 224, 225, False, 13]
+INFO:root:send: ['attack', 225, 205, False, 14]
+INFO:root:send: ['attack', 205, 185, False, 15]
+INFO:root:send: ['attack', 185, 165, False, 16]
+INFO:root:send: ['attack', 165, 166, False, 17]
+INFO:root:send: ['attack', 166, 167, False, 18]
+INFO:root:send: ['attack', 223, 243, False, 19]
+INFO:root:send: ['attack', 243, 263, False, 20]
+INFO:root:send: ['attack', 263, 283, False, 21]
+INFO:root:send: ['attack', 283, 303, False, 22]
+INFO:root:send: ['attack', 223, 243, False, 23]
+INFO:root:send: ['attack', 243, 242, False, 24]
+INFO:root:send: ['attack', 242, 241, False, 25]
+INFO:root:send: ['attack', 223, 203, False, 26]
+INFO:root:send: ['attack', 203, 183, False, 27]
+0 (-1, -1)
+(10, 10)
+INFO:root:send: ['attack', 229, 209, False, 28]
+INFO:root:send: ['attack', 228, 208, False, 29]
+INFO:root:send: ['attack', 249, 250, False, 30]
+INFO:root:send: ['attack', 269, 270, False, 31]
+INFO:root:send: ['attack', 205, 206, False, 32]
+INFO:root:send: ['attack', 167, 187, False, 33]
+INFO:root:send: ['attack', 310, 290, False, 34]
+INFO:root:send: ['attack', 185, 186, False, 35]
+INFO:root:send: ['attack', 224, 204, False, 36]
+INFO:root:send: ['attack', 226, 246, False, 37]
+INFO:root:send: ['attack', 289, 288, False, 38]
+INFO:root:send: ['attack', 225, 245, False, 39]
+INFO:root:send: ['attack', 166, 146, False, 40]
+INFO:root:send: ['attack', 309, 308, False, 41]
+INFO:root:send: ['attack', 203, 202, False, 42]
+INFO:root:send: ['attack', 165, 164, False, 43]
+INFO:root:send: ['attack', 243, 244, False, 44]
+INFO:root:send: ['attack', 183, 182, False, 45]
+INFO:root:send: ['attack', 263, 264, False, 46]
+INFO:root:send: ['attack', 241, 221, False, 47]
+3 (-1, -1)
+INFO:root:send: ['attack', 242, 243, False, 48]
+INFO:root:send: ['attack', 243, 223, False, 49]
+5 (-1, -1)
+INFO:root:send: ['attack', 283, 263, False, 50]
+INFO:root:send: ['attack', 263, 243, False, 51]
+INFO:root:send: ['attack', 243, 223, False, 52]
+INFO:root:send: ['attack', 223, 203, False, 53]
+INFO:root:send: ['attack', 203, 183, False, 54]
+INFO:root:send: ['attack', 183, 163, False, 55]
+INFO:root:send: ['attack', 163, 164, False, 56]
+4 (-1, -1)
+INFO:root:send: ['attack', 164, 165, False, 57]
+3 (-1, -1)
+INFO:root:send: ['attack', 227, 226, False, 58]
+INFO:root:send: ['attack', 226, 225, False, 59]
+INFO:root:send: ['attack', 225, 224, False, 60]
+INFO:root:send: ['attack', 224, 223, False, 61]
+3 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 165, 145, False, 62]
+INFO:root:send: ['attack', 303, 302, False, 63]
+3 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 145, 125, False, 64]
+3 (-1, -1)
+INFO:root:send: ['attack', 125, 145, False, 65]
+INFO:root:send: ['attack', 145, 165, False, 66]
+INFO:root:send: ['attack', 165, 185, False, 67]
+INFO:root:send: ['attack', 223, 203, False, 68]
+INFO:root:send: ['attack', 203, 204, False, 69]
+INFO:root:send: ['attack', 204, 205, False, 70]
+INFO:root:send: ['attack', 205, 185, False, 71]
+INFO:root:send: ['attack', 185, 186, False, 72]
+INFO:root:send: ['attack', 186, 187, False, 73]
+3 (-1, -1)
+INFO:root:send: ['attack', 187, 186, False, 74]
+INFO:root:send: ['attack', 186, 185, False, 75]
+INFO:root:send: ['attack', 185, 205, False, 76]
+INFO:root:send: ['attack', 205, 204, False, 77]
+INFO:root:send: ['attack', 204, 203, False, 78]
+INFO:root:send: ['attack', 203, 223, False, 79]
+5 (-1, -1)
+INFO:root:send: ['attack', 202, 182, False, 80]
+INFO:root:send: ['attack', 182, 183, False, 81]
+INFO:root:send: ['attack', 227, 226, False, 82]
+INFO:root:send: ['attack', 226, 225, False, 83]
+INFO:root:send: ['attack', 225, 224, False, 84]
+INFO:root:send: ['attack', 224, 223, False, 85]
+INFO:root:send: ['attack', 223, 203, False, 86]
+INFO:root:send: ['attack', 203, 183, False, 87]
+INFO:root:send: ['attack', 183, 163, False, 88]
+INFO:root:send: ['attack', 163, 164, False, 89]
+4 (-1, -1)
+INFO:root:send: ['attack', 164, 165, False, 90]
+3 (-1, -1)
+INFO:root:send: ['attack', 241, 242, False, 91]
+INFO:root:send: ['attack', 242, 243, False, 92]
+INFO:root:send: ['attack', 243, 223, False, 93]
+3 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 125, 124, False, 94]
+INFO:root:send: ['attack', 221, 201, False, 95]
+INFO:root:send: ['attack', 165, 166, False, 96]
+INFO:root:send: ['attack', 146, 147, False, 97]
+INFO:root:send: ['attack', 263, 262, False, 98]
+INFO:root:send: ['attack', 302, 301, False, 99]
+INFO:root:send: ['attack', 283, 282, False, 100]
+INFO:root:send: ['attack', 264, 284, False, 101]
+INFO:root:send: ['attack', 245, 265, False, 102]
+INFO:root:send: ['attack', 303, 323, False, 103]
+INFO:root:send: ['attack', 246, 266, False, 104]
+INFO:root:send: ['attack', 209, 210, False, 105]
+INFO:root:send: ['attack', 288, 287, False, 106]
+INFO:root:send: ['attack', 269, 268, False, 107]
+INFO:root:send: ['attack', 229, 230, False, 108]
+INFO:root:send: ['attack', 308, 307, False, 109]
+INFO:root:send: ['attack', 270, 271, False, 110]
+INFO:root:send: ['attack', 309, 329, False, 111]
+INFO:root:send: ['attack', 290, 291, False, 112]
+3 (-1, -1)
+INFO:root:send: ['attack', 145, 165, False, 113]
+INFO:root:send: ['attack', 187, 186, False, 114]
+INFO:root:send: ['attack', 186, 185, False, 115]
+INFO:root:send: ['attack', 185, 205, False, 116]
+INFO:root:send: ['attack', 206, 205, False, 117]
+INFO:root:send: ['attack', 205, 204, False, 118]
+INFO:root:!!!! Game Complete. Result = False !!!!
+INFO:root:Moves: 140, Realized: 139
+INFO:root:exiting
+INFO:root:send: ['surrender']
+INFO:root:send: ['cancel']
+INFO:root:send: ['leave_game']
+INFO:root:send: ['attack', 208, 228, False, 119]
+INFO:root:exiting
+INFO:root:exiting
+INFO:root:
+
+
+
+INFO:root:send: ['set_username', 'sdlfkjsdlfk', '[Bot] dsgfhj']
+INFO:root:Joining games
+INFO:root:send: ['join_private', '40mt', 'sdlfkjsdlfk']
+INFO:root:error_set_username: ['This username is already taken.']
+INFO:root:Queue 0/2 {1: ['[Bot] aaaadsfakljn'], 2: [None]}
+INFO:root:Message: [Bot] dsgfhj joined the custom lobby.
+INFO:root:Queue 0/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj']}
+INFO:root:Queue 0/3 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 3: ['hotdog69']}
+INFO:root:Message: hotdog69 joined the custom lobby.
+INFO:root:Queue 0/3 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 3: ['hotdog69']}
+INFO:root:notify: ['hotdog69 joined the custom game', 'There are now 3 players in the lobby.']
+INFO:root:Queue 0/4 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 3: ['hotdog69'], 4: ['tem_shett_']}
+INFO:root:Message: tem_shett_ joined the custom lobby.
+INFO:root:Queue 0/4 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 3: ['hotdog69'], 4: ['tem_shett_']}
+INFO:root:notify: ['tem_shett_ joined the custom game', 'There are now 4 players in the lobby.']
+INFO:root:Queue 0/3 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69'], 4: ['tem_shett_']}
+INFO:root:Message: hotdog69 joined the spectators.
+INFO:root:Queue 0/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:Message: tem_shett_ joined the spectators.
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:Queue 1/2 {1: ['[Bot] aaaadsfakljn'], 2: ['[Bot] dsgfhj'], 13: ['hotdog69', 'tem_shett_']}
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:From tem_shett_: go
+INFO:root:pre_game_start
+INFO:root:Joined Game: http://bot.generals.io/replays/1P_LJKhQV - ['[Bot] aaaadsfakljn', '[Bot] dsgfhj']
+INFO:root:Message:  Chat is being recorded.
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+(25, 56, [((18, 6), (18, 7), 22), ((18, 7), (17, 7), 0), ((17, 7), (17, 8), 0), ((17, 8), (17, 9), 0), ((17, 9), (17, 10), 0), ((17, 10), (17, 11), 0), ((17, 11), (17, 12), 0), ((17, 12), (16, 12), 0), ((16, 12), (15, 12), 0), ((15, 12), (14, 12), 0), ((14, 12), (13, 12), 0), ((18, 6), (17, 6), 34), ((17, 6), (17, 5), 0), ((17, 5), (17, 4), 0), ((17, 4), (17, 3), 0), ((17, 3), (17, 2), 0), ((17, 2), (17, 1), 0), ((18, 6), (18, 7), 40), ((18, 7), (17, 7), 0), ((17, 7), (16, 7), 0), ((16, 7), (15, 7), 0), ((15, 7), (15, 8), 0), ((18, 6), (19, 6), 46), ((19, 6), (19, 5), 0), ((19, 5), (19, 4), 0), ((18, 6), (18, 5), 49)])
+INFO:root:send: ['attack', 144, 165, False, 1]
+INFO:root:send: ['attack', 165, 164, False, 2]
+INFO:root:send: ['attack', 164, 185, False, 3]
+INFO:root:send: ['attack', 185, 206, False, 4]
+INFO:root:send: ['attack', 206, 227, False, 5]
+INFO:root:send: ['attack', 227, 248, False, 6]
+INFO:root:send: ['attack', 248, 269, False, 7]
+INFO:root:send: ['attack', 269, 268, False, 8]
+INFO:root:send: ['attack', 268, 267, False, 9]
+INFO:root:send: ['attack', 267, 266, False, 10]
+INFO:root:send: ['attack', 266, 265, False, 11]
+INFO:root:send: ['attack', 144, 143, False, 12]
+INFO:root:send: ['attack', 143, 122, False, 13]
+INFO:root:send: ['attack', 122, 101, False, 14]
+INFO:root:send: ['attack', 101, 80, False, 15]
+INFO:root:send: ['attack', 80, 59, False, 16]
+INFO:root:send: ['attack', 59, 38, False, 17]
+INFO:root:send: ['attack', 144, 165, False, 18]
+INFO:root:send: ['attack', 165, 164, False, 19]
+INFO:root:send: ['attack', 164, 163, False, 20]
+INFO:root:send: ['attack', 163, 162, False, 21]
+INFO:root:send: ['attack', 162, 183, False, 22]
+INFO:root:send: ['attack', 144, 145, False, 23]
+INFO:root:send: ['attack', 145, 124, False, 24]
+INFO:root:send: ['attack', 124, 103, False, 25]
+INFO:root:send: ['attack', 144, 123, False, 26]
+1 (-1, -1)
+(12, 12)
+INFO:root:send: ['attack', 265, 244, False, 27]
+INFO:root:send: ['attack', 266, 245, False, 28]
+INFO:root:send: ['attack', 267, 246, False, 29]
+INFO:root:send: ['attack', 268, 247, False, 30]
+INFO:root:send: ['attack', 183, 182, False, 31]
+INFO:root:send: ['attack', 227, 226, False, 32]
+INFO:root:send: ['attack', 269, 290, False, 33]
+INFO:root:send: ['attack', 206, 205, False, 34]
+INFO:root:send: ['attack', 248, 249, False, 35]
+INFO:root:send: ['attack', 162, 141, False, 36]
+INFO:root:send: ['attack', 122, 121, False, 37]
+INFO:root:send: ['attack', 101, 100, False, 38]
+INFO:root:send: ['attack', 80, 79, False, 39]
+INFO:root:send: ['attack', 59, 58, False, 40]
+INFO:root:send: ['attack', 123, 102, False, 41]
+INFO:root:send: ['attack', 38, 37, False, 42]
+INFO:root:send: ['attack', 124, 125, False, 43]
+INFO:root:send: ['attack', 103, 82, False, 44]
+5 (-1, -1)
+INFO:root:send: ['attack', 145, 144, False, 45]
+INFO:root:send: ['attack', 144, 143, False, 46]
+INFO:root:send: ['attack', 143, 164, False, 47]
+INFO:root:send: ['attack', 163, 164, False, 48]
+INFO:root:send: ['attack', 165, 164, False, 49]
+INFO:root:send: ['attack', 164, 185, False, 50]
+INFO:root:send: ['attack', 185, 206, False, 51]
+INFO:root:send: ['attack', 206, 205, False, 52]
+INFO:root:send: ['attack', 205, 226, False, 53]
+INFO:root:send: ['attack', 226, 247, False, 54]
+INFO:root:send: ['attack', 247, 246, False, 55]
+INFO:root:send: ['attack', 246, 245, False, 56]
+INFO:root:send: ['attack', 245, 266, False, 57]
+INFO:root:send: ['attack', 266, 265, False, 58]
+INFO:root:send: ['attack', 265, 264, False, 59]
+INFO:root:send: ['attack', 264, 263, False, 60]
+INFO:root:send: ['attack', 263, 262, False, 61]
+INFO:root:send: ['attack', 262, 261, False, 62]
+INFO:root:send: ['attack', 261, 260, False, 63]
+INFO:root:send: ['attack', 260, 259, False, 64]
+INFO:root:send: ['attack', 259, 258, False, 65]
+4 (-1, -1)
+INFO:root:send: ['attack', 144, 143, False, 66]
+INFO:root:send: ['attack', 143, 164, False, 67]
+INFO:root:send: ['attack', 164, 185, False, 68]
+INFO:root:send: ['attack', 185, 206, False, 69]
+INFO:root:send: ['attack', 206, 205, False, 70]
+INFO:root:send: ['attack', 205, 226, False, 71]
+INFO:root:send: ['attack', 226, 247, False, 72]
+INFO:root:send: ['attack', 247, 246, False, 73]
+INFO:root:send: ['attack', 246, 245, False, 74]
+INFO:root:send: ['attack', 245, 244, False, 75]
+INFO:root:send: ['attack', 244, 265, False, 76]
+INFO:root:send: ['attack', 265, 286, False, 77]
+INFO:root:send: ['attack', 286, 307, False, 78]
+INFO:root:send: ['attack', 307, 328, False, 79]
+INFO:root:send: ['attack', 328, 327, False, 80]
+INFO:root:send: ['attack', 327, 326, False, 81]
+INFO:root:send: ['attack', 326, 325, False, 82]
+INFO:root:send: ['attack', 325, 324, False, 83]
+INFO:root:send: ['attack', 324, 323, False, 84]
+INFO:root:send: ['attack', 323, 322, False, 85]
+18 (-1, -1)
+INFO:root:send: ['attack', 144, 143, False, 86]
+INFO:root:send: ['attack', 143, 164, False, 87]
+INFO:root:send: ['attack', 164, 163, False, 88]
+INFO:root:send: ['attack', 163, 162, False, 89]
+INFO:root:send: ['attack', 162, 183, False, 90]
+17 (-1, -1)
+INFO:root:send: ['attack', 102, 123, False, 91]
+INFO:root:send: ['attack', 123, 144, False, 92]
+17 (-1, -1)
+INFO:root:send: ['attack', 182, 183, False, 93]
+INFO:root:send: ['attack', 183, 204, False, 94]
+INFO:root:send: ['attack', 204, 205, False, 95]
+INFO:root:send: ['attack', 82, 103, False, 96]
+INFO:root:send: ['attack', 103, 124, False, 97]
+INFO:root:send: ['attack', 125, 124, False, 98]
+INFO:root:send: ['attack', 124, 145, False, 99]
+INFO:root:send: ['attack', 145, 144, False, 100]
+INFO:root:send: ['attack', 144, 165, False, 101]
+INFO:root:send: ['attack', 165, 164, False, 102]
+INFO:root:send: ['attack', 164, 185, False, 103]
+INFO:root:send: ['attack', 185, 206, False, 104]
+INFO:root:send: ['attack', 206, 205, False, 105]
+INFO:root:send: ['attack', 205, 226, False, 106]
+INFO:root:send: ['attack', 227, 226, False, 107]
+INFO:root:send: ['attack', 226, 247, False, 108]
+INFO:root:send: ['attack', 248, 247, False, 109]
+INFO:root:send: ['attack', 247, 246, False, 110]
+INFO:root:send: ['attack', 246, 245, False, 111]
+INFO:root:send: ['attack', 245, 244, False, 112]
+INFO:root:send: ['attack', 244, 265, False, 113]
+INFO:root:send: ['attack', 265, 264, False, 114]
+INFO:root:send: ['attack', 264, 263, False, 115]
+INFO:root:send: ['attack', 263, 262, False, 116]
+INFO:root:send: ['attack', 262, 261, False, 117]
+INFO:root:send: ['attack', 261, 260, False, 118]
+INFO:root:send: ['attack', 260, 259, False, 119]
+INFO:root:send: ['attack', 259, 280, False, 120]
+INFO:root:send: ['attack', 280, 279, False, 121]
+INFO:root:send: ['attack', 279, 278, False, 122]
+INFO:root:send: ['attack', 278, 277, False, 123]
+INFO:root:send: ['attack', 277, 276, False, 124]
+INFO:root:send: ['attack', 276, 297, False, 125]
+INFO:root:send: ['attack', 297, 296, False, 126]
+INFO:root:send: ['attack', 296, 295, False, 127]
+INFO:root:send: ['attack', 295, 294, False, 128]
+INFO:root:send: ['attack', 294, 315, False, 129]
+INFO:root:send: ['attack', 315, 336, False, 130]
+INFO:root:send: ['attack', 336, 357, False, 131]
+INFO:root:send: ['attack', 357, 378, False, 132]
+15 (-1, -1)
+INFO:root:send: ['attack', 79, 100, False, 133]
+INFO:root:send: ['attack', 121, 120, False, 134]
+17 (-1, -1)
+INFO:root:send: ['attack', 144, 143, False, 135]
+INFO:root:send: ['attack', 143, 122, False, 136]
+INFO:root:send: ['attack', 122, 101, False, 137]
+17 (-1, -1)
+INFO:root:send: ['attack', 101, 122, False, 138]
+INFO:root:send: ['attack', 122, 121, False, 139]
+INFO:root:send: ['attack', 121, 120, False, 140]
+INFO:root:send: ['attack', 120, 141, False, 141]
+16 (-1, -1)
+INFO:root:send: ['attack', 38, 59, False, 142]
+INFO:root:send: ['attack', 59, 80, False, 143]
+15 (-1, -1)
+INFO:root:send: ['attack', 141, 120, False, 144]
+INFO:root:send: ['attack', 120, 121, False, 145]
+INFO:root:send: ['attack', 121, 100, False, 146]
+14 (-1, -1)
+INFO:root:send: ['attack', 100, 121, False, 147]
+INFO:root:send: ['attack', 121, 120, False, 148]
+INFO:root:send: ['attack', 120, 141, False, 149]
+INFO:root:send: ['attack', 141, 162, False, 150]
+13 (-1, -1)
+INFO:root:send: ['attack', 37, 58, False, 151]
+INFO:root:send: ['attack', 58, 79, False, 152]
+INFO:root:send: ['attack', 79, 100, False, 153]
+INFO:root:send: ['attack', 100, 99, False, 154]
+13 (-1, -1)
+INFO:root:send: ['attack', 164, 163, False, 155]
+INFO:root:send: ['attack', 163, 162, False, 156]
+INFO:root:send: ['attack', 162, 183, False, 157]
+13 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 297, 298, False, 158]
+INFO:root:send: ['attack', 99, 98, False, 159]
+INFO:root:send: ['attack', 378, 379, False, 160]
+INFO:root:send: ['attack', 278, 299, False, 161]
+INFO:root:send: ['attack', 279, 300, False, 162]
+INFO:root:send: ['attack', 261, 240, False, 163]
+INFO:root:send: ['attack', 280, 281, False, 164]
+INFO:root:send: ['attack', 262, 241, False, 165]
+INFO:root:send: ['attack', 182, 181, False, 166]
+INFO:root:send: ['attack', 80, 81, False, 167]
+INFO:root:send: ['attack', 82, 61, False, 168]
+INFO:root:send: ['attack', 323, 322, False, 169]
+INFO:root:send: ['attack', 263, 242, False, 170]
+INFO:root:send: ['attack', 324, 303, False, 171]
+INFO:root:send: ['attack', 325, 304, False, 172]
+INFO:root:send: ['attack', 205, 204, False, 173]
+INFO:root:send: ['attack', 103, 104, False, 174]
+INFO:root:send: ['attack', 326, 305, False, 175]
+INFO:root:send: ['attack', 226, 225, False, 176]
+INFO:root:send: ['attack', 286, 287, False, 177]
+29 (-1, -1)
+INFO:root:send: ['attack', 144, 123, False, 178]
+INFO:root:send: ['attack', 123, 102, False, 179]
+29 (-1, -1)
+INFO:root:send: ['attack', 102, 81, False, 180]
+28 (-1, -1)
+INFO:root:send: ['attack', 81, 80, False, 181]
+INFO:root:send: ['attack', 80, 101, False, 182]
+28 (-1, -1)
+INFO:root:send: ['attack', 101, 122, False, 183]
+INFO:root:send: ['attack', 122, 121, False, 184]
+INFO:root:send: ['attack', 121, 120, False, 185]
+INFO:root:send: ['attack', 120, 141, False, 186]
+26 (-1, -1)
+INFO:root:send: ['attack', 124, 103, False, 187]
+INFO:root:send: ['attack', 103, 82, False, 188]
+INFO:root:send: ['attack', 82, 61, False, 189]
+INFO:root:send: ['attack', 61, 60, False, 190]
+25 (-1, -1)
+INFO:root:send: ['attack', 141, 120, False, 191]
+INFO:root:send: ['attack', 120, 121, False, 192]
+INFO:root:send: ['attack', 121, 100, False, 193]
+24 (-1, -1)
+INFO:root:send: ['attack', 144, 165, False, 194]
+INFO:root:send: ['attack', 165, 164, False, 195]
+INFO:root:send: ['attack', 164, 163, False, 196]
+INFO:root:send: ['attack', 163, 162, False, 197]
+23 (-1, -1)
+INFO:root:send: ['attack', 38, 39, False, 198]
+INFO:root:send: ['attack', 60, 39, False, 199]
+23 (-1, -1)
+INFO:root:send: ['attack', 100, 99, False, 200]
+22 (-1, -1)
+INFO:root:send: ['attack', 162, 183, False, 201]
+21 (-1, -1)
+INFO:root:send: ['attack', 183, 162, False, 202]
+INFO:root:send: ['attack', 162, 163, False, 203]
+INFO:root:send: ['attack', 163, 164, False, 204]
+INFO:root:send: ['attack', 249, 248, False, 205]
+INFO:root:send: ['attack', 248, 227, False, 206]
+INFO:root:send: ['attack', 227, 206, False, 207]
+INFO:root:send: ['attack', 206, 185, False, 208]
+INFO:root:send: ['attack', 185, 164, False, 209]
+INFO:root:send: ['attack', 164, 143, False, 210]
+INFO:root:send: ['attack', 143, 144, False, 211]
+21 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 294, 273, False, 212]
+INFO:root:send: ['attack', 295, 274, False, 213]
+INFO:root:send: ['attack', 315, 316, False, 214]
+INFO:root:send: ['attack', 37, 16, False, 215]
+INFO:root:send: ['attack', 336, 337, False, 216]
+INFO:root:send: ['attack', 296, 317, False, 217]
+INFO:root:send: ['attack', 98, 97, False, 218]
+INFO:root:send: ['attack', 357, 358, False, 219]
+INFO:root:send: ['attack', 39, 18, False, 220]
+INFO:root:send: ['attack', 298, 319, False, 221]
+INFO:root:send: ['attack', 240, 219, False, 222]
+INFO:root:send: ['attack', 379, 400, False, 223]
+INFO:root:send: ['attack', 181, 180, False, 224]
+INFO:root:send: ['attack', 300, 321, False, 225]
+INFO:root:send: ['attack', 323, 322, False, 226]
+INFO:root:send: ['attack', 303, 302, False, 227]
+INFO:root:send: ['attack', 281, 282, False, 228]
+INFO:root:send: ['attack', 304, 283, False, 229]
+INFO:root:send: ['attack', 305, 284, False, 230]
+INFO:root:send: ['attack', 324, 345, False, 231]
+30 (-1, -1)
+INFO:root:send: ['attack', 144, 165, False, 232]
+29 (-1, -1)
+INFO:root:send: ['attack', 165, 164, False, 233]
+28 (-1, -1)
+INFO:root:send: ['attack', 164, 185, False, 234]
+27 (-1, -1)
+INFO:root:send: ['attack', 185, 206, False, 235]
+26 (-1, -1)
+INFO:root:send: ['attack', 206, 205, False, 236]
+25 (-1, -1)
+INFO:root:send: ['attack', 247, 226, False, 237]
+INFO:root:send: ['attack', 226, 205, False, 238]
+INFO:root:send: ['attack', 205, 206, False, 239]
+INFO:root:send: ['attack', 206, 185, False, 240]
+INFO:root:send: ['attack', 185, 164, False, 241]
+INFO:root:send: ['attack', 164, 143, False, 242]
+INFO:root:send: ['attack', 143, 144, False, 243]
+INFO:root:send: ['attack', 273, 252, False, 244]
+25 (-1, -1)
+(-1, -1)
+INFO:root:send: ['attack', 274, 253, False, 245]
+INFO:root:send: ['attack', 16, 15, False, 246]
+INFO:root:send: ['attack', 97, 96, False, 247]
+INFO:root:send: ['attack', 18, 17, False, 248]
+INFO:root:send: ['attack', 337, 338, False, 249]
+INFO:root:send: ['attack', 358, 359, False, 250]
+INFO:root:send: ['attack', 180, 179, False, 251]
+INFO:root:send: ['attack', 120, 119, False, 252]
+INFO:root:send: ['attack', 379, 380, False, 253]
+INFO:root:send: ['attack', 319, 340, False, 254]
+INFO:root:send: ['attack', 299, 320, False, 255]
+INFO:root:send: ['attack', 141, 140, False, 256]
+INFO:root:send: ['attack', 400, 401, False, 257]
+INFO:root:send: ['attack', 321, 342, False, 258]
+INFO:root:send: ['attack', 323, 322, False, 259]
+INFO:root:send: ['attack', 61, 62, False, 260]
+INFO:root:send: ['attack', 345, 344, False, 261]
+INFO:root:send: ['attack', 183, 204, False, 262]
+INFO:root:send: ['attack', 265, 266, False, 263]
+INFO:root:!!!! Game Complete. Result = False !!!!
+INFO:root:Moves: 286, Realized: 280
+INFO:root:exiting
+INFO:root:send: ['attack', 58, 79, False, 264]
+INFO:root:send: ['surrender']
+INFO:root:send: ['cancel']
+INFO:root:send: ['leave_game']
+32 (-1, -1)
+INFO:root:exiting
+INFO:root:exiting
+INFO:root:
+
+
+
+INFO:root:send: ['set_username', 'sdlfkjsdlfk', '[Bot] dsgfhj']
+INFO:root:Joining games
+INFO:root:send: ['join_private', '40mt', 'sdlfkjsdlfk']
+INFO:root:error_set_username: ['This username is already taken.']
+INFO:root:Queue 0/1 {13: ['hotdog69', 'tem_shett_'], 1: [None]}
+INFO:root:Message: [Bot] dsgfhj joined the custom lobby.
+INFO:root:Queue 0/1 {13: ['hotdog69', 'tem_shett_'], 1: ['[Bot] dsgfhj']}
+INFO:root:Queue 0/2 {13: ['hotdog69', 'tem_shett_'], 1: ['[Bot] dsgfhj'], 2: [None]}
+INFO:root:Message: [Bot] aaaadsfakljn joined the custom lobby.
+INFO:root:Queue 0/2 {13: ['hotdog69', 'tem_shett_'], 1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn']}
+INFO:root:notify: ['[Bot] aaaadsfakljn joined the custom game', 'There are now 4 players in the lobby.']
+INFO:root:Queue 1/2 {13: ['hotdog69', 'tem_shett_'], 1: ['[Bot] dsgfhj'], 2: ['[Bot] aaaadsfakljn']}
+INFO:root:notify: ['[Bot] aaaadsfakljn left the custom game', '3 players remain in the lobby.']
+INFO:root:Queue 0/1 {13: ['hotdog69', 'tem_shett_'], 1: ['[Bot] dsgfhj']}
+INFO:root:Message: [Bot] aaaadsfakljn left the custom lobby.
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:From tem_shett_: go
+INFO:root:Queue 1/1 {13: ['hotdog69', 'tem_shett_'], 1: ['[Bot] dsgfhj']}
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:Queue 1/1 {13: ['hotdog69', 'tem_shett_'], 1: ['[Bot] dsgfhj']}
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:Queue 1/1 {13: ['hotdog69', 'tem_shett_'], 1: ['[Bot] dsgfhj']}
+INFO:root:notify: ['hotdog69 left the custom game', '2 players remain in the lobby.']
+INFO:root:Queue 1/1 {13: ['tem_shett_'], 1: ['[Bot] dsgfhj']}
+INFO:root:Message: hotdog69 left the custom lobby.
+INFO:root:send: ['set_force_start', '40mt', True]
+INFO:root:Sent force start
+INFO:root:Queue 1/1 {13: ['tem_shett_'], 1: ['[Bot] dsgfhj']}
+CRITICAL:root:Keyboard Interrupt
+INFO:root:exiting
+INFO:root:send: ['surrender']
+CRITICAL:root:'GeneralsBot' object has no attribute '_map'
+Traceback (most recent call last):
+  File "/home/tem_shett/HSE/kursach/generalsio-bot/base/bot_base.py", line 81, in _start_moves_thread
+    self._make_move()
+  File "/home/tem_shett/HSE/kursach/generalsio-bot/base/bot_base.py", line 91, in _make_move
+    self._moveMethod(self, self._map)
+AttributeError: 'GeneralsBot' object has no attribute '_map'. Did you mean: _game?
+INFO:root:send: ['cancel']
+INFO:root:exiting
+INFO:root:send: ['surrender']
+INFO:root:send: ['leave_game']
+INFO:root:send: ['cancel']
+
+Process finished with exit code 137 (interrupted by signal 9:SIGKILL)

@@ -10,6 +10,7 @@ REPLAY_URLS = {
 START_KEYWORDS = ["start", "go", "force", "play", "ready", "rdy"]
 
 DIRECTIONS = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+EXPANDED_DIRECTIONS = [(1, 0), (-1, 0), (0, 1), (0, -1), (-1, -1), (1, -1), (-1, 1), (1, 1)]
 
 TILE_EMPTY = -1
 TILE_MOUNTAIN = -2
